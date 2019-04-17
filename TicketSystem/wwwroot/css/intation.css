@@ -1,0 +1,177 @@
+﻿
+.panel-default > .panel-heading-custom {
+    background-image: none;
+    background-color: #bf2341;
+    color: #ffffff;
+}
+
+.title-banner {
+    color: white;
+    background-color: #bf2341;
+    text-align: left;
+    padding-left: 4%;
+    font-size: medium;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #bf2341;
+    border-color: #bf2341;
+}
+
+    .btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus {
+        color: #fff;
+        background-color: #bf2341;
+        border-color: #bf2341;
+    }
+
+    .btn-primary:hover {
+        color: #fff;
+        background-color: #941940;
+        border-color: #bf2341;
+    }
+
+.btn-login {
+    padding: 0.375rem 0.75rem;
+    font-size: 1.5rem;
+}
+
+.btn-register {
+    padding: 0.375rem 0.75rem;
+    font-size: 1.5rem;
+}
+
+.btn-create {
+    padding: 0.375rem 0.75rem;
+    font-size: 1.5rem;
+}
+
+.Open {
+    color: grey;
+}
+
+.Pending {
+    color: orange;
+}
+
+.Closed {
+    color: green;
+}
+
+.navbar-padding {
+    padding-right: 2%;
+}
+
+/* unvisited link */
+a:link {
+    color: #bf2341;
+}
+
+/* visited link */
+a:visited {
+    color: #bf2341;
+}
+
+/* mouse over link */
+a:hover {
+    color: #bf2341;
+}
+
+/* selected link */
+a:active {
+    color: #bf2341;
+}
+
+.intro-header {
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/headerintation-1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+    .intro-message > h1 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 5em;
+    }
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../images/InControl_bgr.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    .banner ul {
+        margin-bottom: 0;
+    }
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+    margin-right: 20px;
+}
+
+
+.footer-all {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.content-about {
+    padding-left: 4%;
+    padding-right: 4%;
+}
