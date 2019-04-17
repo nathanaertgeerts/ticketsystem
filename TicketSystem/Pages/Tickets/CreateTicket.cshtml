@@ -1,0 +1,113 @@
+﻿@page
+@model TicketSystem.Pages.Private.CreateTicketModel
+@{
+    ViewData["Title"] = "Create Ticket";
+}
+@inject UserManager<ApplicationUser> UserManager
+
+<br />
+<div class="col-md-12 content-about">
+    <form method="post">
+        <div class="col-md-4">
+            @if (User.Identity.IsAuthenticated && User.IsInRole("Customer"))
+            {
+                <div class="form-group">
+                    <label>Requestor:</label>
+                    <input asp-for="Input.TicketRequestor" class="form-control" type="email" value="@UserManager.GetUserName(User)" readonly>
+                </div>
+            }
+            else
+            {
+                <div class="form-group">
+                    <label>Requestor:</label>
+                    <input asp-for="Input.TicketRequestor" class="form-control" type="email" value="@UserManager.GetUserName(User)" maxlength="30">
+                </div>
+
+            }
+
+            <div class="form-group">
+                <label>Subject:</label>
+                <input asp-for="Input.TicketSubject" class="form-control" placeholder="Subject*" required maxlength="45" />
+            </div>
+            <div class="form-group">
+                <label> Product: </label>
+                <select class="form-control" asp-for="Input.TicketProduct" asp-items="Html.GetEnumSelectList<Models.Product>()"></select>
+            </div>
+
+            @if (User.Identity.IsAuthenticated && User.IsInRole("Customer"))
+            {
+                <input type="hidden" asp-for="Input.TicketPriority" value="@Models.Priority.Normal" />
+            }
+            else
+            {
+                <div class="form-group">
+                    <label> Priority: </label>
+                    <select class="form-control" asp-for="Input.TicketPriority" asp-items="Html.GetEnumSelectList<Models.Priority>()"></select>
+                </div>
+            }
+            <div class="form-group">
+                <label> Category:</label>
+                <select class="form-control" asp-for="Input.Category">
+                    @foreach (var category in Model.CategoryList)
+                    {
+                        <option>@category.CategoryName</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Details:</label>
+                <textarea asp-for="Input.TicketDetails" id="summernote" required></textarea>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-sm btn-primary btn-create" type="submit" onclick="IsEmpty()"><span class="fa fa-plus"></span> Create ticket</button>
+            </div>
+
+
+        </div>
+    </form>
+</div>
+<div class="row">
+
+</div>
+
+@section Scripts {
+
+
+    <script>
+        $(document).ready(function () {
+            $('#summernote').summernote({
+                height: 100,
+                width: 710,
+                callbacks: {
+                    onImageUpload: function (image) {
+                        var sizeKB = image[0]['size'] / 1000;
+                        var tmp_pr = 0;
+                        if (sizeKB > 5000) {
+                            tmp_pr = 1;
+                            alert("please, select an image less then 5mb.");
+                        }
+                        if (image[0]['type'] != 'image/jpeg' && image[0]['type'] != 'image/png') {
+                            tmp_pr = 1;
+                            alert("please, select a png or jpg image.");
+                        }
+                        if (tmp_pr == 0) {
+                            var file = image[0];
+                            var reader = new FileReader();
+                            reader.onloadend = function () {
+                                var image = $('<img>').attr('src', reader.result);
+                                $('#summernote').summernote("insertNode", image[0]);
+                            }
+                            reader.readAsDataURL(file);
+                        }
+                    }
+                }
+            })
+
+        });
+        function IsEmpty() {
+            if ($('#summernote').summernote('isEmpty')) {
+                alert('Please fill out all fields.');
+            }
+        }
+    </script>
+}

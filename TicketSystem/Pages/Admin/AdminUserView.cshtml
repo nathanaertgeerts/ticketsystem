@@ -1,0 +1,92 @@
+﻿@page
+@model TicketSystem.Pages.Admin.AdminUserViewModel
+@{
+    ViewData["Title"] = "User Details";
+}
+@inject RoleManager<IdentityRole> RoleManager
+
+<br />
+<div class="col-md-12 content-about row">
+    <form method="post" class="col-md-4">
+        <div class="form-group col-md-12">
+            <label>Email:</label>
+            <input readonly class="form-control" value="@Model.UserDetails.Email" />
+            <input type="hidden" asp-for="Input.id" value="@Model.UserDetails.Id" />
+        </div>
+        <div class="form-group col-md-6">
+            <label>Role: </label>
+            <select class="form-control" asp-for="Input.Role">
+                <option selected>@Model.CurrentRole</option>
+                <option disabled>------</option>
+                @foreach (var role in RoleManager.Roles)
+                {
+                    <option>@role.Name</option>
+                }
+            </select>
+        </div>
+        <div class="form-group col-md-12">
+            <button class="btn btn-sm btn-primary btn-create" type="submit" asp-page-handler="RemoveRole">Confirm</button>
+            <a class="btn btn-sm btn-default" href="/Admin/AdminChangeRoles"> Cancel</a>
+        </div>
+        @if (Model.UserInCompany == null)
+        {
+        }
+        else
+        {
+            <div class="form-group col-md-12">
+                <input type="hidden" asp-for="Input.id" value="@Model.UserInCompany.UserId" />
+                <input type="hidden" asp-for="Input.CompanyID" value="@Model.UserInCompany.Id" />
+                <button class="btn btn-sm btn-primary btn-create" type="submit" asp-page-handler="DeleteUserFromCompany">Remove from current Company</button>
+            </div>
+        }
+    </form>
+    <div class="col-md-8">
+        <form asp-action="Index" method="post">
+            <div class="form-actions no-color">
+                <p>
+                    <label>Find by name: <input class="form-control" type="text" name="SearchString" value="@ViewData["currentFilter"]" /></label>
+                    <button type="submit" asp-page-handler="Search" class="btn btn-primary">Search </button> |
+                    <a href="~/Admin/AdminUserView?id=@Model.UserDetails.Id">Back to Full List</a>
+                    <input type="hidden" asp-for="Input.id" value="@Model.UserDetails.Id" />
+                </p>
+            </div>
+        </form>
+
+        <form method="post">
+            <div class="row">
+                <div class="col-md-12">
+                    <div asp-validation-summary="ModelOnly" class="alert-danger form-control"></div>
+                </div>
+            </div>
+
+            <div>
+                <p>Select the Company:</p>
+                <table class="table-condensed table-striped col-md-12">
+                    <thead>
+                        <tr>
+                            <th>Naam</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (var item in Model.Companies)
+                        {
+                            <tr>
+                                <td>@item.Name</td>
+                                <td>@item.Email</td>
+                                <td style="display:none;"><input asp-for="Input.email" value="@Model.UserDetails.Email" /></td>
+                                <td style="display:none;"><input type="hidden" asp-for="Input.id" value="@Model.UserDetails.Id" /></td>
+                                <td><button class="btn btn-primary pull-right" asp-page-handler="AddUserToCompany" asp-route-id="@item.Id">Link Company</button></td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="row">
+
+</div>

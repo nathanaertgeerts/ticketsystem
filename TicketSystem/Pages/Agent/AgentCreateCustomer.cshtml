@@ -1,0 +1,107 @@
+﻿@page
+@model TicketSystem.Pages.Agent.AgentCreateCustomerModel
+@{
+    ViewData["Title"] = "Agent Create Customer";
+}
+
+@inject RoleManager<IdentityRole> RoleManager
+
+@if (User.Identity.IsAuthenticated && User.IsInRole("Agent"))
+{
+    <body>
+        <br />
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="col-md-2 sidebar">
+                    <div class="card card-default">
+                        <div class="card-header">
+                            <h5><strong>Agent Dashboard</strong></h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="sidebar-sticky">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Agent/AgentTickets">
+                                            <span class="fa fa-envelope"></span>
+                                            Tickets
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Agent/AgentCustomers">
+                                            <span class="fa fa-user"></span>
+                                            Customers
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Agent/AgentMailTickets">
+                                            <span class="fa fa-inbox"></span>
+                                            Mailbox
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </nav>
+
+                <main role="main" class="col-md-9 ml-sm-auto col-lg-10">
+
+                    <div class="card card-default">
+                        <div class="card-header">
+                            Add Customer
+                        </div>
+                        <div class="card-body">
+
+                            <h3>Create a customer</h3>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <form method="post">
+                                        <div class="form-group">
+                                            <label>First Name: </label>
+                                            <input class="form-control" asp-for="Input.Firstname" placeholder="First Name" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Last Name: </label>
+                                            <input class="form-control" asp-for="Input.Lastname" placeholder="Last Name" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Email: </label>
+                                            <input class="form-control" asp-for="Input.Email" placeholder="email@email.com" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Role: </label>
+                                            @*<select class="form-control" asp-for="Input.Role">
+                @foreach (var role in RoleManager.Roles)
+                {
+                    <option>@role.Name</option>
+                }
+            </select>*@
+                                            <input class="form-control" asp-for="Input.Role" value="Customer" readonly />
+                                        </div>
+                                        <div class="form-group">
+                                            <button class="btn btn-sm btn-primary btn-block" type="submit">Create user</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+
+
+    </body>
+}
+
+
+
+else
+{
+    <p> You must be logged in as an 'Agent' to view this page</p>
+
+}
+

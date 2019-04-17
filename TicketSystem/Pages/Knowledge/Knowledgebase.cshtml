@@ -1,0 +1,175 @@
+﻿@page
+@model TicketSystem.Pages.Private.PrivatePageModel
+@{
+    ViewData["Title"] = "Knowledge Base";
+}
+
+<br />
+<body>
+    <div>
+        <h3 class="col-md-4">Knowledge: </h3>
+        <form asp-action="Index" method="get" class="pull-left col-md-8">
+            <div class="form-actions no-color">
+                <div class="input-group">
+                    <input class="form-control col-md-6" type="text" name="SearchString" value="@ViewData["currentFilter"]" placeholder="Search The Knowledge Base" />
+                    &nbsp;<input type="submit" value="Search" class="btn btn-primary" />
+                    &nbsp;<a href="~/Knowledge/Knowledgebase" class="btn btn-default">Clear</a>
+                </div>
+            </div>
+        </form>
+        @if (User.Identity.IsAuthenticated && User.IsInRole("Customer"))
+        { }
+        else
+        {
+            <div class="pull-right" style="margin-right:20px;">
+                <a href="~/Knowledge/ManageKnowledge"><span class="fa fa-cog"> </span> Manage</a>
+            </div>
+        }
+
+    </div>
+    <br />
+    <br />
+    <div class="col-md-8 pull-left">
+
+        <div class="list-group list-group-flush">
+            @if (ViewData["currentFilter"] == null)
+            {
+                <div class="container-fluid">
+                    <table class="table-sm">
+                        <thead>
+                            <tr>
+                                <th>Categories: (@Model.Maps.Count)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var map in Model.Maps)
+                            {
+
+                                @if (map.Articles == null)
+                                {
+                                    <tr>
+                                        <td>
+                                            <a href="#"><span class="fa fa-folder"> </span> @map.Title <span class="badge">(0)</span></a>
+                                        </td>
+                                    </tr>
+                                }
+                                else
+                                {
+                                    <tr>
+                                        <td>
+                                            <a data-toggle="collapse" data-target="#@map.Id" href=""> <span class="fa fa-folder"> </span> @map.Title <span class="badge">(@map.Articles.Count)</span></a>
+                                            <div class="col-md-12 collapse" id="@map.Id" style="margin-left: 30px;">
+                                                @foreach (var Article in map.Articles)
+                                                {
+                                                    <ul class="list-unstyled">
+                                                        <li>
+                                                            <a asp-page="/Knowledge/ArticleView" asp-route-id="@Article.Id"><span class="fa fa-file-text-o"> </span> @Article.Title</a>
+                                                        </li>
+                                                    </ul>
+                                                }
+                                            </div><br />
+                                        </td>
+                                    </tr>
+                                }
+
+
+
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <div class="container-fluid">
+                    <div class="float-left">
+                        <table class="table-sm">
+                            <thead>
+                                <tr>
+                                    <th>Categories: (@Model.Maps.Count)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var map in Model.Maps)
+                                {
+                                    @if (map.Articles == null)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <a href="#"><span class="fa fa-folder"> </span> @map.Title <span class="badge">(0)</span></a>
+                                            </td>
+                                        </tr>
+                                    }
+                                    else
+                                    {
+                                        <tr>
+                                            <td>
+                                                <a data-toggle="collapse" data-target="#@map.Id" href=""> <span class="fa fa-folder"> </span> @map.Title <span class="badge">(@map.Articles.Count)</span></a>
+                                                <div class="col-md-12 collapse" id="@map.Id" style="margin-left: 30px;">
+                                                    @foreach (var Article in map.Articles)
+                                                    {
+                                                        <ul class="list-unstyled">
+                                                            <li><a asp-page="/Knowledge/ArticleView" asp-route-id="@Article.Id"><span class="fa fa-file-text-o"> </span> @Article.Title</a></li>
+                                                        </ul>
+                                                    }
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div class="offset-md-3">
+                        <table class="table-sm">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        Articles: (@Model.Articles.Count)
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var Article in Model.Articles)
+                                {
+
+
+                                    <tr>
+                                        <td>
+                                            <a asp-page="/Knowledge/ArticleView" asp-route-id="@Article.Id"><span class="fa fa-file-text-o"> </span> @Article.Title</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            }
+
+        </div>
+
+    </div>
+    @*<div class="col-md-4 pull-right">
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#profile" role="tab" data-toggle="tab">Recent</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#buzz" role="tab" data-toggle="tab">Popular</a>
+                </li>
+            </ul>
+
+             Tab panes
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade show active" id="profile"><br />Lijst met recente artikels</div>
+                <div role="tabpanel" class="tab-pane fade" id="buzz"><br />Lijst met populaire artikels</div>
+            </div>
+        </div>*@
+</body>
+
+<br />
+<div class="row col-md-12">
+
+</div>

@@ -1,0 +1,34 @@
+﻿@page "{id:int}"
+@model TicketSystem.Pages.Knowledge.ArticleViewModel
+@{
+    ViewData["Title"] = "Article";
+}
+<br />
+<div class="form-group content-about">
+    <div class="form-group pull-right">
+        @if (User.Identity.IsAuthenticated && User.IsInRole("Customer"))
+        { }
+        else
+        {
+            <a asp-page="/Knowledge/ManageArticle" asp-route-id="@Model.Article.Id"><span class="fa fa-edit"></span> Edit</a>
+        }
+
+    </div>
+    <div class="form-group pull-left">
+        <label>
+            <span class="fa fa-calendar"></span> @Model.Article.Date
+        </label>
+    </div><br /><br />
+    <div class="form-group">
+        <label>
+            <strong>Title: </strong> @Model.Article.Title
+        </label>
+    </div>
+
+    <div class="form-group">
+        <label>
+            <strong>Content: </strong>
+            @Html.Raw(@Model.Article.Content)
+        </label>
+    </div>
+</div>

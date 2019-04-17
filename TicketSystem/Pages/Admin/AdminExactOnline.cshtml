@@ -1,0 +1,111 @@
+﻿@page
+@model TicketSystem.Pages.Admin.AdminExactOnlineModel
+@{
+    ViewData["Title"] = "Exact Online";
+}
+
+@if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+{
+    <body>
+        <br />
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="col-md-2 sidebar">
+                    <div class="card panel-default">
+                        <div class="card-header">
+                            <h5><strong>Admin Dashboard</strong></h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="sidebar-sticky">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Admin/AdminTickets">
+                                            <span class="fa fa-envelope"></span>
+                                            Tickets
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Admin/AdminMailTickets">
+                                            <span class="fa fa-inbox"></span>
+                                            Mailbox
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Admin/AdminChangeRoles">
+                                            <span class="fa fa-user"></span>
+                                            Users
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Admin/AdminCompanies">
+                                            <span class="fa fa-address-book-o"></span>
+                                            Companies
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Admin/AdminExactOnline">
+                                            <span class="fa fa-address-book-o"></span>
+                                            Exact Online
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Admin/AdminUpload">
+                                            <span class="fa fa-upload"></span>
+                                            Upload
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Admin/AdminDMS">
+                                            <span class="fa fa-folder"></span>
+                                            Documents
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Admin/AdminSettings">
+                                            <span class="fa fa-cog"></span>
+                                            Settings
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </nav>
+
+                <main role="main" class="col-md-9 ml-sm-auto col-lg-10">
+
+                    <div class="card card-default">
+                        <div class="card-header">
+                            Exact Online Connection
+                        </div>
+                        <div class="card-body">
+                            <form method="post">
+                                <button type="submit" class="btn btn-primary" asp-page-handler="oauth">Refresh Exact Online Data Manually</button>
+                            </form>
+                        </div>
+                    </div>
+
+
+                </main>
+            </div>
+        </div>
+
+
+    </body>
+}
+
+
+
+
+
+
+else
+{
+    <p> You must be logged in as an 'admin' to view this page</p>
+
+}
+

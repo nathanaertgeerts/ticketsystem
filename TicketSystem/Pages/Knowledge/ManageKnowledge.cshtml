@@ -1,0 +1,98 @@
+﻿@page
+@model TicketSystem.Pages.Knowledge.ManageKnowledgeModel
+@{
+    ViewData["Title"] = "Manage Knowledge";
+}
+<body>
+    <br />
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 sidebar">
+                <div class="card card-default">
+                    <div class="card-header">
+                        <h5><strong>Manage KB</strong></h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="sidebar-sticky">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link active" asp-page="/Knowledge/ManageArticles">
+                                        <span class="fa fa-edit"></span>
+                                        Articles
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Knowledge/ManageKnowledge">
+                                        <span class="fa fa-folder"></span>
+                                        Categories
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Knowledge/ManageKnowledge">
+                                        <span class="fa fa-cog"></span>
+                                        Settings
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10">
+
+                <div class="card card-default">
+                    <div class="card-header">
+                        Categories
+                    </div>
+                    <div class="card-body col-md-12">
+                        <div class="col-md-5 pull-left">
+                            <form method="post" class="col-md-7">
+                                <div class="form-group">
+                                    <label>Add Category</label>
+                                    <input class="form-control" asp-for="Input.Title" />
+                                </div>
+                                <button class="btn btn-primary" asp-page-handler="Map">Add</button>
+                            </form>
+                        </div>
+
+                        <div class="col-md-6 pull-left">
+                            <table class="table table-sm">
+                                <thead>
+                                    <tr>
+                                        <th>Categories</th>
+                                        <th>Articles</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var map in Model.Maps)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @map.Title
+                                            </td>
+                                            <td>
+                                                @map.Articles.Count
+                                            </td>
+                                            <td>
+                                                <a asp-page="/Knowledge/ManageCategories" asp-route-id="@map.Id"><span class="fa fa-edit"></span></a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-1 pull-right">
+
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+
+</body>

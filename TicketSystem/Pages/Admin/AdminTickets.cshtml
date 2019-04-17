@@ -1,0 +1,155 @@
+﻿@page
+@model TicketSystem.Pages.Admin.AdminTicketsModel
+@{
+    ViewData["Title"] = "Admin Tickets";
+}
+
+@if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+{
+    <body>
+        <br />
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="col-md-2 sidebar">
+                    <div class="card card-default">
+                        <div class="card-header">
+                            <h5><strong>Admin Dashboard</strong></h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="sidebar-sticky">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Admin/AdminTickets">
+                                            <span class="fa fa-envelope"></span>
+                                            Tickets
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Admin/AdminMailTickets">
+                                            <span class="fa fa-inbox"></span>
+                                            Mailbox
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Admin/AdminChangeRoles">
+                                            <span class="fa fa-user"></span>
+                                            Users
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Admin/AdminCompanies">
+                                            <span class="fa fa-address-book-o"></span>
+                                            Companies
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Admin/AdminExactOnline">
+                                            <span class="fa fa-address-book-o"></span>
+                                            Exact Online
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Admin/AdminUpload">
+                                            <span class="fa fa-upload"></span>
+                                            Upload
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Admin/AdminDMS">
+                                            <span class="fa fa-folder"></span>
+                                            Documents
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Admin/AdminSettings">
+                                            <span class="fa fa-cog"></span>
+                                            Settings
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </nav>
+
+                <main role="main" class="col-md-9 ml-sm-auto col-lg-10">
+
+                    <div class="card card-default">
+                        <div class="card-header clearfix">
+                            <div class="col-md-4 pull-left">
+                                Manage Ticket Categories
+                            </div>
+                            <div class="col-md-2 pull-right">
+                                <a asp-page="/Tickets/CreateTicket">
+                                    <span class="fa fa-plus"></span>  Create Ticket
+
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <form method="post">
+                                <div class="col-md-6 float-left">
+                                    <table class="table table-condensed">
+                                        <thead>
+                                            <tr>
+                                                <td>
+                                                    <strong>Category Name</strong>
+
+                                                </td>
+                                                <td>
+                                                    <strong>Remove</strong>
+                                                </td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @for (int i = 0; i < Model.CategoryList.Count(); i++)
+                                            {
+                                                <tr>
+                                                    <td class="form-row">
+                                                        <input class="form-control col-md-6" asp-for="@Model.CategoryList[i].CategoryName" value="@Model.CategoryList[i].CategoryName" />
+                                                        <input type="hidden" asp-for="@Model.CategoryList[i].Id" value="@Model.CategoryList[i].Id"/>
+                                                    </td>
+                                                    <td>
+                                                        <button class="btn btn-primary" asp-page-handler="Delete" asp-route-id="@Model.CategoryList[i].Id"><span class="fa fa-trash"></span></button>
+                                                    </td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                    <div class="col-md-6">
+                                        <button class="btn btn-primary" asp-page-handler="Update">Update</button>
+                                        <a class="btn btn-default" asp-page="/Admin/AdminTickets">Cancel</a>
+                                    </div>
+                                </div>
+                            </form>
+                            <form method="post">
+                                <div class="col-md-5 float-right offset-1">
+                                    <div class="form-row">
+                                        <input class="form-control col-md-6" placeholder="Category Name*" required maxlength="45" asp-for="Input.CategoryName" />
+                                        <button class="btn btn-primary">Add Category</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+
+
+    </body>
+}
+
+
+
+else
+{
+    <p> You must be logged in as an 'admin' to view this page</p>
+
+}

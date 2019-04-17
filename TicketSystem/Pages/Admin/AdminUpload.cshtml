@@ -1,0 +1,117 @@
+﻿@page
+@model TicketSystem.Pages.Admin.AdminUploadModel
+@{
+    ViewData["Title"] = "AdminUpload";
+}
+
+<body>
+    <br />
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 sidebar">
+                <div class="card card-default">
+                    <div class="card-header">
+                        <h5><strong>Admin Dashboard</strong></h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="sidebar-sticky">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Admin/AdminTickets">
+                                        <span class="fa fa-envelope"></span>
+                                        Tickets
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Admin/AdminMailTickets">
+                                        <span class="fa fa-inbox"></span>
+                                        Mailbox
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Admin/AdminChangeRoles">
+                                        <span class="fa fa-user"></span>
+                                        Users
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Admin/AdminCompanies">
+                                        <span class="fa fa-address-book-o"></span>
+                                        Companies
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Admin/AdminExactOnline">
+                                        <span class="fa fa-address-book-o"></span>
+                                        Exact Online
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Admin/AdminUpload">
+                                        <span class="fa fa-upload"></span>
+                                        Upload
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Admin/AdminDMS">
+                                        <span class="fa fa-folder"></span>
+                                        Documents
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Admin/AdminSettings">
+                                        <span class="fa fa-cog"></span>
+                                        Settings
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10">
+
+                <div class="card card-default">
+                    <div class="card-header clearfix">
+                        <div class="col-md-4 pull-left">
+                            XML Upload
+                        </div>
+                    </div>
+                    <div class="card-body">
+
+                        <div class=" col-md-6 pull-left">
+                            <form method="post" class="form-group" enctype="multipart/form-data">
+                                <div class="form-group">
+                                    <label>XML Upload Zone:</label>
+                                    <input asp-for="InputFile" type="file" accept=".xml">
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn btn-primary"> Upload </button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="col-md-6 pull-right">
+                            <form method="post" class="form-group" enctype="multipart/form-data">
+                                <div class="form-group">
+                                    @*<button class="btn btn-primary" asp-page-handler="Xml"> Show XML </button>*@
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+
+</body>
+

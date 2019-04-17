@@ -1,0 +1,60 @@
+﻿@page "{id:int}"
+@model TicketSystem.Pages.Admin.AdminDocumentSettingsModel
+@{
+    ViewData["Title"] = "Document Settings";
+}
+
+<div class="container">
+    <br />
+    <form method="post" class="col-md-12">
+        <table class="table" id="myTable">
+            <thead>
+                <tr>
+                    <th>Available Maps</th>
+                    <th>Minimum Contract Level</th>
+                    <th style="display:none;"></th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @if (Model.Docs != null)
+                {
+                    for (int i = 0; i < Model.Docs.Count; i++)
+                    {
+
+
+                        <tr>
+                            <td scope="row">@Model.Docs[i].FilePath.Substring(Model.TargetDirectory.DirectoryPath.Count())</td>
+                            <td style="display:none;"><input value="@Model.Docs[i].Id" asp-for="@Model.Docs[i].Id" /></td>
+                            <td>
+                                <select class="form-control col-md-6" asp-for="@Model.Docs[i].DocumentLevel" asp-items="Html.GetEnumSelectList<Models.DocumentLevel>()">
+                                    <option selected> @Model.Docs[i].DocumentLevel</option>
+                                    <option disabled>----</option>
+                                </select>
+                            </td>
+                        </tr>
+                    }
+                }
+
+            </tbody>
+        </table>
+        <button class="btn btn-primary" asp-page-handler="Update">Save Changes</button>
+    </form>
+</div>
+<style>
+    .page-item.active .page-link {
+        z-index: 1;
+        color: rgba(0, 0, 0, 0.9);
+        background-color: #dae0e5;
+        border-color: #dae0e5;
+    }
+</style>
+
+@section Scripts
+    {
+    <script>
+        $(document).ready(function () {
+            $('#myTable').DataTable();
+        })
+    </script>
+}

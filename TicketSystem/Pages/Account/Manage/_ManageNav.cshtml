@@ -1,0 +1,20 @@
+﻿@inject SignInManager<ApplicationUser> SignInManager
+@{
+    var hasExternalLogins = (await SignInManager.GetExternalAuthenticationSchemesAsync()).Any();
+}
+
+<ul class="list-unstyled offset-1">
+    <li>&nbsp;<a asp-page="./Index"><span class="fa fa-user"> </span> Profile</a></li>
+    <li>-------------------</li>
+    <li>&nbsp;<a asp-page="./ChangePassword"><span class="fa fa-lock"> </span> Password</a></li>
+    <li>-------------------</li>
+    <li><a asp-page="./ChangeSettings"><span class="fa fa-bell"> </span> Notifications</a></li>
+</ul>
+
+<style>
+    .list-group-item.active {
+        background-color: #e9ecef;
+        border-color: #e9ecef;
+    }
+</style>
+

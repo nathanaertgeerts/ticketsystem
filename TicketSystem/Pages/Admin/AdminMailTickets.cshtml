@@ -1,0 +1,129 @@
+﻿@page
+@model TicketSystem.Pages.Admin.AdminMailTicketsModel
+@{
+    ViewData["Title"] = "Mail Tickets";
+}
+
+@if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+{
+    <body>
+        <br />
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="col-md-2 sidebar">
+                    <div class="card card-default">
+                        <div class="card-header">
+                            <h5><strong>Admin Dashboard</strong></h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="sidebar-sticky">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Admin/AdminTickets">
+                                            <span class="fa fa-envelope"></span>
+                                            Tickets
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Admin/AdminMailTickets">
+                                            <span class="fa fa-inbox"></span>
+                                            Mailbox
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Admin/AdminChangeRoles">
+                                            <span class="fa fa-user"></span>
+                                            Users
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Admin/AdminCompanies">
+                                            <span class="fa fa-address-book-o"></span>
+                                            Companies
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Admin/AdminExactOnline">
+                                            <span class="fa fa-address-book-o"></span>
+                                            Exact Online
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Admin/AdminUpload">
+                                            <span class="fa fa-upload"></span>
+                                            Upload
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Admin/AdminDMS">
+                                            <span class="fa fa-folder"></span>
+                                            Documents
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Admin/AdminSettings">
+                                            <span class="fa fa-cog"></span>
+                                            Settings
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </nav>
+
+                <main role="main" class="col-md-9 ml-sm-auto col-lg-10">
+
+                    <div class="card card-default">
+                        <div class="card-header clearfix">
+                            <div class="col-md-4 pull-left">
+                                @*<form method="post">
+                                    <button type="submit" class="btn btn-primary" asp-page-handler="Fetch"><span class="fa fa-envelope"></span> Fetch Mails</button>
+                                </form>*@
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <form method="post">
+                                <table class="table table-condensed table-striped" style="overflow-x: scroll;">
+                                    <thead>
+                                        <tr>
+                                            <th>From</th>
+                                            <th>Subject</th>
+                                            <th>Date</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model.MailTickets)
+                                        {
+                                            <tr>
+                                                <td>@item.Requestor</td>
+                                                <td style="max-width:150px; word-wrap: break-word;">@item.Subject</td>
+                                                <td>@item.Date</td>
+                                                <td><a class="btn btn-default" asp-page="/Tickets/TicketConverter" asp-route-id="@item.MailTicketId">Convert to ticket</a></td>
+                                                <td><button type="submit" class="btn btn-primary fa fa-trash" onclick="return confirm('Are you sure you want to delete this item?');" asp-route-id="@item.MailTicketId"></button></td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </form>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+
+
+    </body>
+}
+
+
+
+else
+{
+    <p> You must be logged in as an 'admin' to view this page</p>
+
+}
+

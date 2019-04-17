@@ -1,0 +1,142 @@
+﻿@page
+@model TicketSystem.Pages.Knowledge.ManageArticlesModel
+@{
+    ViewData["Title"] = "Manage Articles";
+}
+
+<body>
+    <br />
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 sidebar">
+                <div class="card card-default">
+                    <div class="card-header">
+                        <h5><strong>Manage KB</strong></h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="sidebar-sticky">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link active" asp-page="/Knowledge/ManageArticles">
+                                        <span class="fa fa-edit"></span>
+                                        Articles
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Knowledge/ManageKnowledge">
+                                        <span class="fa fa-folder"></span>
+                                        Categories
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Knowledge/ManageKnowledge">
+                                        <span class="fa fa-cog"></span>
+                                        Settings
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10">
+
+                <div class="card card-default">
+                    <div class="card-header">
+                        <div class="pull-left">Create Article</div>
+                    </div>
+                    <div class="card-body col-md-12">
+                        <div class="col-md-5 pull-left">
+                            <form method="post" class="col-md-7">
+                                <div class="form-group ">
+                                    <label> Category:</label>
+                                    <select class="form-control" asp-for="Input.Id" required>
+                                        @foreach (var item in Model.Categories)
+                                        {
+                                            <option value="@item.Id">@item.Title</option>
+                                        }
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Title:</label>
+                                    <input class="form-control" asp-for="Input.Title" required />
+                                </div>
+                                <div class="form-group">
+                                    <label>Details:</label>
+                                    <textarea asp-for="Input.Content" id="summernote" required></textarea>
+                                </div>
+                                <button class="btn btn-primary" asp-page-handler="CreateArticle">Add</button>
+                            </form>
+                        </div>
+
+                        <div class="col-md-4 pull-right">
+                            <table class="table table-sm">
+                                <thead>
+                                    <tr>
+                                        <th>Map</th>
+                                        <th>Article</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var category in Model.Categories)
+                                    {
+
+                                        <tr>
+                                            <td>
+                                                @category.Title
+                                            </td>
+                                            <td>
+                                                <table>
+                                                    <tbody>
+                                                        @if (category.Articles != null)
+    {
+                                                    @foreach (var item in category.Articles)
+{
+                                                    <tr>
+                                                        <td style="border:none;">  @item.Title </td>
+                                                        <td style="border:none;"><a asp-page="/Knowledge/ManageArticle" asp-route-id="@item.Id"><span class="fa fa-edit"></span></a></td>
+                                                    </tr>
+}
+                                                        }
+                                                        else
+                                                        {
+                                                               <tr>
+                                                                   <td>No articles found.</td>
+                                                               </tr>
+                                                        }
+
+                                                    </tbody>
+                                                </table>
+                                            </td>
+
+                                        </tr>
+
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+
+</body>
+
+@section Scripts {
+
+
+    <script>
+        $(document).ready(function () {
+            $('#summernote').summernote({
+                height: 100,
+                width: 600,
+            });
+        });
+    </script>
+}

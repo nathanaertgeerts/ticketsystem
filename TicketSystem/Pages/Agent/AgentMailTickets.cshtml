@@ -1,0 +1,105 @@
+﻿@page
+@model TicketSystem.Pages.Agent.AgentMailTicketsModel
+@{
+    ViewData["Title"] = "Mail Tickets";
+}
+
+@if (User.Identity.IsAuthenticated && User.IsInRole("Agent"))
+{
+    <body>
+        <br />
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="col-md-2 sidebar">
+                    <div class="card card-default">
+                        <div class="card-header">
+                            <h5><strong>Agent Dashboard</strong></h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="sidebar-sticky">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Agent/AgentTickets">
+                                            <span class="fa fa-envelope"></span>
+                                            Tickets
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Agent/AgentCustomers">
+                                            <span class="fa fa-user"></span>
+                                            Customers
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Agent/AgentMailTickets">
+                                            <span class="fa fa-inbox"></span>
+                                            Mailbox
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Agent/AgentSettings">
+                                            <span class="fa fa-inbox"></span>
+                                            Settings
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </nav>
+
+                <main role="main" class="col-md-9 ml-sm-auto col-lg-10">
+
+                    <div class="card card-default">
+                        <div class="card-header clearfix">
+                            <div class="col-md-4 pull-left">
+                                <form method="post">
+                                    <button type="submit" class="btn btn-primary" asp-page-handler="Fetch"><span class="fa fa-envelope"></span> Fetch Mails</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <form method="post">
+                                <table class="table table-condensed table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>From</th>
+                                            <th>Subject</th>
+                                            <th>Date</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model.MailTickets)
+                                        {
+                                            <tr>
+                                                <td>@item.Requestor</td>
+                                                <td style="max-width:150px; word-wrap: break-word;">@item.Subject</td>
+                                                <td>@item.Date</td>
+                                                <td><a class="btn btn-default" asp-page="/Tickets/TicketConverter" asp-route-id="@item.MailTicketId">Convert to ticket</a></td>
+                                                <td><button type="submit" class="btn btn-primary fa fa-trash" onclick="return confirm('Are you sure you want to delete this item?');" asp-route-id="@item.MailTicketId"></button></td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </form>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+
+
+    </body>
+}
+
+
+
+else
+{
+    <p> You must be logged in as an 'Agent' to view this page</p>
+
+}
+
+

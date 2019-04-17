@@ -1,0 +1,112 @@
+﻿@page "{id:int}"
+@model TicketSystem.Pages.Admin.AdminCompanyDetailsModel
+@{
+    ViewData["Title"] = "Company Details";
+}
+
+<br />
+<div class="col-md-12 content-about row" style="width:98%; margin:auto;">
+    <form method="post" class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <strong>@Model.Companies.Name</strong>
+            </div>
+            <div class="card-body">
+                <div class="container">
+                    <div class="col-md-4 pull-left">
+                        <div class="form-group">
+                            <strong> Contact:</strong>
+                        </div>
+                        <div class="form-group">
+                            <span class="fa fa-address-card-o">   </span>&nbsp; @Model.Companies.Address,@Model.Companies.Postalcode @Model.Companies.City, @Model.Companies.Country
+                        </div>
+                        <div class="form-group">
+                            <span class="fa fa-phone">    </span>&nbsp;&nbsp; @Model.Companies.Phone
+                        </div>
+                        <div class="form-group">
+                            <span class="fa fa-envelope-o">  </span>&nbsp; @Model.Companies.Email
+                        </div>
+                        <div class="form-group">
+                            <span class="fa fa-globe">   </span>&nbsp;&nbsp; @Model.Companies.Homepage
+                        </div>
+                    </div>
+                    <div class="col-md-5 pull-right">
+                        <strong> Users:</strong><br />
+                        <table class="table table-sm">
+                            <thead>
+                                <tr>
+                                    <th style="border-top: none !important;">Name</th>
+                                    <th style="border-top: none !important;">Email</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model.UsersList.Count == 0)
+                                {
+                                    <tr>
+                                        <td>No Users in this company</td>
+                                    </tr>
+                                }
+                                else
+                                {
+                                    @foreach (var Contact in Model.UsersList)
+                                    {
+                                        <tr>
+                                            <td>@Contact.Firstname  @Contact.Lastname</td>
+                                            <td>@Contact.Email</td>
+                                        </tr>
+
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-3 pull-right">
+                        <div class="form-group">
+                            <label> <strong>Contract level:</strong></label>
+                            <select class="form-control col-md-6" asp-for="Input.ContractLevel" asp-items="Html.GetEnumSelectList<Models.ContractLevel>()">
+                                <option>@Model.Companies.ContractLevel</option>
+                                <option disabled>----</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="container">
+                <div class="col-md-12">
+                    @foreach (var contact in Model.Companies.Contacten)
+                    {
+                        <div class="form-group">
+                            <strong> Main Contact Person:</strong>
+                        </div>
+                        <div class="form-group">
+                            <span class="fa fa-address-card-o">   </span>&nbsp;
+                            @contact.JobTitle : @contact.Firstname @contact.Lastname
+                        </div>
+                        <div class="form-group">
+                            <span class="fa fa-phone">    </span>&nbsp;&nbsp;
+                            @contact.MPhone
+                            @contact.Phone
+                        </div>
+                        <div class="form-group">
+                            <span class="fa fa-envelope-o">  </span>&nbsp;
+                            @contact.Email
+                        </div>
+
+                    }
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="col-md-12 pull-right">
+                    <button type="submit" class="btn btn-primary btn-sm" asp-page-handler="UpdateCompany">Update Company</button>
+                    <a class="btn btn-default btn-sm" href="~/Admin/AdminCompanies">Cancel</a>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</div>
+<div class="row">
+
+</div>
+

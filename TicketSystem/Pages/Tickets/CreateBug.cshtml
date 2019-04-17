@@ -1,0 +1,82 @@
+﻿@page "{id:int}"
+@model TicketSystem.Pages.Tickets.CreateBugModel
+@{
+    ViewData["Title"] = "Create a Work Item";
+}
+
+<br />
+<div class="col-md-12 content-about">
+    <div class="col-md-9 pull-left">
+        <form>
+            <div class="form-group col-md-4">
+                <label>Bug <input class="radio-inline" value="1" type="radio" name="formselector" onclick="displayForm(this)"></label>
+                <label>Feature <input class="radio-inline" value="2" type="radio" name="formselector" onclick="displayForm(this)"></label>
+            </div>
+        </form>
+        <form method="post">
+            <div class="form-group col-md-4">
+                <input asp-for="Input.TicketId" value="@Model.Ticket.TicketId" required type="hidden" />
+                <label>Title:</label>
+                <input class="form-control" asp-for="Input.Title" required />
+            </div>
+            <div class="form-group col-md-4">
+                <label> Project: </label>
+                <select class="form-control" asp-for="Input.Project">
+                    @foreach (var project in Model.Value)
+                    {
+                        <option>@project.name</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group col-md-4">
+                <label>Description:</label>
+                <textarea asp-for="Input.Description" class="form-control" id="summernote" required></textarea>
+            </div>
+            @*<div class="form-group col-md-5">
+                <input class="form-control" type="file" asp-for="Input.File"/>
+            </div>*@
+            <div class="form-group col-md-4">
+                <button style="visibility:hidden" id="form1" class="btn btn-primary" type="submit" asp-page-handler="CreateBug">Create a Bug</button>
+                <button style="visibility:hidden" id="form2" class="btn btn-primary pull-right" type="submit" asp-page-handler="CreateFeature">Create a Feature</button>
+            </div>
+        </form>
+    </div>
+    <div class="col-md-3 pull-right">
+        <div class="list-group">
+            <h5><strong>Projects</strong></h5>
+            @foreach (var project in Model.Value)
+            {
+                <a href="https://intation-development.visualstudio.com/@project.name" class="list-group-item list-group-item-action">@project.name</a>
+            }
+        </div>
+    </div>
+</div>
+<div class="row col-md-12">
+</div>
+@section Scripts {
+
+
+    <script>
+        $(document).ready(function () {
+            $('#summernote').summernote({
+                height: 100,
+                width: 710,
+            });
+        });
+
+        function displayForm(c) {
+            if (c.value == "1") {
+                document.getElementById("form1").style.visibility = 'visible';
+                document.getElementById("form2").style.visibility = 'hidden';
+            }
+            else if (c.value == "2") {
+                document.getElementById("form1").style.visibility = 'hidden';
+                document.getElementById("form2").style.visibility = 'visible';
+            }
+            else {
+            }
+
+        }
+    </script>
+}
+

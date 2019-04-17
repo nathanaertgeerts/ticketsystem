@@ -1,0 +1,56 @@
+﻿@page
+@model TicketSystem.Pages.DMS.DocumentsModel
+@{
+    ViewData["Title"] = "Documents";
+}
+<br />
+<div class="container">
+    <form method="post">
+        <table class="table" id="myTable">
+            <thead>
+                <tr>
+                    <th>Available Documents</th>
+                    <th><span class="fa fa-download"></span></th>
+                    <th style="display:none;"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.DirectoryPath != null)
+                {
+
+
+                    @foreach (var file in Model.FilePaths)
+                    {
+
+                        <tr>
+                            <td style="display:none;"><input value="@Model.DirectoryPath" asp-for="Input.DirectoryP"/></td>
+                            <td><input value="@file.Substring(Model.DirectoryPath.Count()+1)" asp-for="Input.fileName" type="hidden" />@file.Substring(Model.DirectoryPath.Count()+1)</td>
+                            <td>
+                                <button type="submit" class="btn btn-primary" asp-page-handler="Download">Download</button>
+                            </td>
+                        </tr>
+
+                    }
+                }
+            </tbody>
+        </table>
+    </form>
+</div>
+
+<style>
+    .page-item.active .page-link {
+        z-index: 1;
+        color: rgba(0, 0, 0, 0.9);
+        background-color: #dae0e5;
+        border-color: #dae0e5;
+    }
+</style>
+
+@section Scripts
+    {
+    <script>
+        $(document).ready(function () {
+            $('#myTable').DataTable();
+        })
+    </script>
+}

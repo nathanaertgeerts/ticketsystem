@@ -1,0 +1,131 @@
+﻿@page
+@model TicketSystem.Pages.Agent.AgentTicketsModel
+@{
+    ViewData["Title"] = "Agent Tickets";
+}
+
+@if (User.Identity.IsAuthenticated && User.IsInRole("Agent"))
+{
+    <body>
+        <br />
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="col-md-2 sidebar">
+                    <div class="card card-default">
+                        <div class="card-header">
+                            <h5><strong>Agent Dashboard</strong></h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="sidebar-sticky">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Agent/AgentTickets">
+                                            <span class="fa fa-envelope"></span>
+                                            Tickets
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Agent/AgentCustomers">
+                                            <span class="fa fa-user"></span>
+                                            Customers
+                                        </a>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Agent/AgentMailTickets">
+                                            <span class="fa fa-inbox"></span>
+                                            Mailbox
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-page="/Agent/AgentSettings">
+                                            <span class="fa fa-inbox"></span>
+                                            Settings
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </nav>
+
+                <main role="main" class="col-md-9 ml-sm-auto col-lg-10">
+
+                    <div class="card card-default">
+                        <div class="card-header clearfix">
+                            <div class="col-md-4 pull-left">
+                                Tickets
+                            </div>
+                            <div class="col-md-1 pull-right">
+                                <a asp-page="/Tickets/CreateTicket">
+                                    <span class="fa fa-plus"></span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <form method="post">
+                                <table class="table table-condensed table-striped" id="myTable">
+                                    <thead>
+                                        <tr>
+                                            <th>Product</th>
+                                            <th>Ticket Subject</th>
+                                            <th>Ticket Status</th>
+                                            <th>Ticket Priority</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model.Tickets)
+                                        {
+                                            <tr>
+
+                                                <td>@item.ProductType</td>
+                                                <td>@item.TicketSubject</td>
+                                                <td>@item.StatusType</td>
+                                                <td>
+                                                    @item.PriorityType &nbsp;
+                                                    @if (item.PriorityType == Models.Priority.High)
+                                                    {
+                                                        <span class="fa fa-flag"></span>
+                                                    }
+                                                </td>
+                                                <td><a asp-page="/Tickets/TicketView" asp-route-id="@item.TicketId">Details</a></td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </form>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+
+
+    </body>
+}
+
+
+
+else
+{
+    <p> You must be logged in as an 'Agent' to view this page</p>
+
+}
+
+<style>
+    .page-item.active .page-link {
+        z-index: 1;
+        color: rgba(0, 0, 0, 0.9);
+        background-color: #dae0e5;
+        border-color: #dae0e5;
+    }
+</style>
+@section Scripts
+    {
+    <script>
+        $(document).ready(function () {
+            $('#myTable').DataTable();
+        })
+    </script>
+}

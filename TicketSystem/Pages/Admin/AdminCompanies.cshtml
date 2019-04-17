@@ -1,0 +1,152 @@
+﻿@page
+@model TicketSystem.Pages.Admin.AdminCompaniesModel
+@{
+    ViewData["Title"] = "Companies";
+}
+
+<body>
+    <br />
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 sidebar">
+                <div class="card card-default">
+                    <div class="card-header">
+                        <h5><strong>Admin Dashboard</strong></h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="sidebar-sticky">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Admin/AdminTickets">
+                                        <span class="fa fa-envelope"></span>
+                                        Tickets
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Admin/AdminMailTickets">
+                                        <span class="fa fa-inbox"></span>
+                                        Mailbox
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Admin/AdminChangeRoles">
+                                        <span class="fa fa-user"></span>
+                                        Users
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Admin/AdminCompanies">
+                                        <span class="fa fa-address-book-o"></span>
+                                        Companies
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Admin/AdminExactOnline">
+                                        <span class="fa fa-address-book-o"></span>
+                                        Exact Online
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Admin/AdminUpload">
+                                        <span class="fa fa-upload"></span>
+                                        Upload
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Admin/AdminDMS">
+                                        <span class="fa fa-folder"></span>
+                                        Documents
+                                    </a>
+                                </li>
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Admin/AdminSettings">
+                                        <span class="fa fa-cog"></span>
+                                        Settings
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10">
+
+                <div class="card card-default">
+                    <div class="card-header clearfix">
+                        <div class="col-md-4 pull-left">
+                            Companies
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div asp-validation-summary="ModelOnly" class="alert-danger form-control"></div>
+                            </div>
+                        </div>
+                        <form asp-action="Index" method="get">
+                            <div class="form-actions no-color">
+                                <p>
+                                    <label>Find by name: <input class="form-control" type="text" name="SearchString" value="@ViewData["currentFilter"]" /></label>
+                                    <input type="submit" value="Search" class="btn btn-primary" /> |
+                                    <a href="~/Admin/AdminCompanies">Back to Full List</a>
+                                </p>
+                            </div>
+                        </form>
+                        <table class="table-condensed table-striped col-md-12" id="myTable" style="overflow-x: scroll;">
+                            <thead>
+                                <tr>
+                                    <th>Naam</th>
+                                    <th>Email</th>
+                                    <th>Contractlevel</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                @foreach (var item in Model.Companies)
+                                {
+                                    <tr>
+                                        <td style="max-width:200px; word-wrap: break-word;">@item.Name</td>
+                                        <td>@item.Email</td>
+                                        <td>@item.ContractLevel</td>
+                                        <td><a class="btn btn-default pull-right" asp-page="/Admin/AdminCompanyDetails" asp-route-id="@item.Id">Details</a></td>
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+
+
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+
+<style>
+    .page-item.active .page-link {
+        z-index: 1;
+        color: rgba(0, 0, 0, 0.9);
+        background-color: #dae0e5;
+        border-color: #dae0e5;
+    }
+</style>
+
+@section Scripts
+    {
+    <script>
+        $(document).ready(function () {
+            $('#myTable').DataTable();
+        })
+    </script>
+}
+

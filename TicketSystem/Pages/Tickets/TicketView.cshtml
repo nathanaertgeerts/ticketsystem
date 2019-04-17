@@ -1,0 +1,416 @@
+﻿@page "{id:int}"
+@model TicketSystem.Pages.Tickets.TicketViewModel
+@{
+    ViewData["Title"] = "Ticket View";
+}
+@inject UserManager<ApplicationUser> UserManager
+
+<br />
+<div class="col-md-12 container">
+    <div class="col-md-7">
+
+
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <strong>Subject: </strong>    @Model.Ticket.TicketSubject
+            </h4>
+        </div>
+        <div class="panel-body" style="word-wrap: break-word;">
+            <strong>Description: </strong><br />
+            <p>@Html.Raw(@Model.Ticket.TicketDetails)</p>
+        </div>
+
+
+        <hr />
+
+        @foreach (var Reply in Model.Ticket.Replies)
+        {
+
+
+
+            <div class="form-group">
+                <form method="post">
+                    <ul class="media-list">
+                        <li class="media">
+                            <div class="media-body col-md-12">
+                                <div class="row">
+                                    <div class="col-sm-1">
+                                        <a class="float-left inactiveLink" href="">
+                                            @if (UserManager.IsInRoleAsync(UserManager.FindByEmailAsync(Reply.ReplyRequestor).Result, "Customer").Result)
+                                            {
+                                                <span class="media-object fa fa-user fa-2x"> </span>
+                                            }
+                                            else
+                                            {
+                                                <span class="media-object fa fa-user-plus fa-2x"> </span>
+                                            }
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <div class="media-body pull-left col-md-12" style="word-wrap: break-word; width:100%!important;">
+                                            @Html.Raw(@Reply.Content)
+                                            <br>
+                                            <small class="text-muted">@Reply.ReplyRequestor | @Reply.ReplyDate.ToString("dd MMM yyyy - HH:mm")</small>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-1">
+                                        @if (User.Identity.IsAuthenticated && User.IsInRole("Customer"))
+                                        {
+
+                                            @if (Reply.ReplyRequestor == User.Identity.Name)
+                                            {
+                                                <button class="asText float-right" type="submit" asp-page-handler="DeleteReply" onclick="return confirm('Are you sure you want to delete this item?');"><span class="fa fa-remove" style="color:lightgrey;"></span></button>
+
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <button class="asText float-right" type="submit" asp-page-handler="DeleteReply" onclick="return confirm('Are you sure you want to delete this item?');"><span class="fa fa-remove" style="color:lightgrey;"></span></button>
+
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <input type="hidden" asp-for="Input.ReplyId" value="@Reply.ReplyId">
+                </form>
+            </div>
+        }
+
+        <div class="container-fluid">
+            <form method="post">
+                <div class="row">
+                    <div class="col-md-12 pull-right">
+                        <div class="form-group ">
+                            <label class="control-label " for="message">
+                                Antwoord:
+                            </label>
+                            <!--  <textarea asp-for="Input.ReplyContent" class="form-control" cols="40" rows="10" required></textarea>
+                            -->
+                            <div>
+                                <textarea id="summernote" asp-for="Input.ReplyContent" required></textarea>
+
+                            </div>
+                        </div>
+                        <div class="form-group ">
+                            <div class="btn">
+                                <button type="submit" class="btn btn-primary pull-left" asp-page-handler="Reply">Reply</button>
+                                <input type="hidden" asp-for="Input.TicketRequestor" value="@Model.Ticket.TicketRequestor">
+                                <input type="hidden" asp-for="Input.TicketId">
+                            </div>
+                            <a class="btn btn-default" href="~/Tickets/MyTickets">Cancel</a>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+    <div class="col-md-5">
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" href="#profile" role="tab" data-toggle="tab">Info</a>
+            </li>
+            @if (User.Identity.IsAuthenticated && User.IsInRole("Customer"))
+            { }
+            else
+            {
+                <li class="nav-item">
+                    <a class="nav-link" href="#buzz" role="tab" data-toggle="tab">Bugs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#references" role="tab" data-toggle="tab">Customer</a>
+                </li>
+            }
+
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade show active" id="profile">
+                <br />
+                <form method="post">
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                    {
+                        <div class="pull-right">
+                            <button type="submit" asp-page-handler="Delete" value="Delete" class="btn btn-primary" onclick="return confirm('Are you sure you want to delete this item?');" asp-route-id="@Model.Ticket.TicketId"><span class="fa fa-trash"></span></button>
+                        </div>
+                    }
+                </form>
+                <div class="form-group">
+                    <span class="fa fa-ticket"> </span> Ticket ID: @Model.Ticket.TicketId
+                </div>
+                <div class="form-group">
+                    <span class="fa fa-address-card-o"> </span> @Model.Ticket.TicketRequestor
+                </div>
+                <div class="form-group">
+                    <span class="fa fa-shopping-cart"> </span> @Model.Ticket.ProductType
+                </div>
+                <div class="form-group">
+                    <span class="fa fa-calendar"> </span> @Model.Ticket.TicketDate
+                </div>
+                <div class="form-group">
+                    <span class="fa fa-comments-o"> </span> @Model.Ticket.Replies.Count()
+                </div>
+                @if (User.Identity.IsAuthenticated && User.IsInRole("Customer"))
+                {
+
+                }
+                else
+                {
+                    <div class="form-group">
+                        <span class="fa fa-bug"> </span> @Model.Ticket.Bugs.Count()
+                    </div>
+                }
+
+                <form method="post">
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("Customer"))
+                    {
+                        <div class="col-lg-4" style="border-left:1px solid #808080;">
+                            <div class="form-group">
+                                <label> <strong> Status: </strong></label><p>@Model.Ticket.StatusType</p>
+                            </div>
+                            <div class="form-group ">
+                                <label> <strong> Priority:</strong>  </label> <p>@Model.Ticket.PriorityType</p>
+                            </div>
+                            <div class="form-group ">
+                                <label> <strong> Category:</strong>  </label> <p>@Model.Ticket.Category.CategoryName</p>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="col-lg-5">
+                            <div class="form-group">
+                                <label> Status: </label>
+                                <select class="form-control" asp-for="Input.TicketStatus" asp-items="Html.GetEnumSelectList<Models.Status>()">
+                                    <option>@Model.Ticket.StatusType</option>
+                                    <option disabled>----</option>
+                                </select>
+                            </div>
+                            <div class="form-group ">
+                                <label> Priority:</label>
+                                <select class="form-control" asp-for="Input.TicketPriority" asp-items="Html.GetEnumSelectList<Models.Priority>()">
+                                    <option>@Model.Ticket.PriorityType</option>
+                                    <option disabled>----</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label> Category:</label>
+                                <select class="form-control" asp-for="Input.Category">
+                                    <option>@Model.Ticket.Category.CategoryName</option>
+                                    <option disabled>----</option>
+                                    @foreach (var category in Model.CategoryList)
+                                    {
+                                        <option>@category.CategoryName</option>
+                                    }
+                                </select>
+                            </div>
+                            <br />
+                            <div class="clearfix">
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary" value="Update" asp-page-handler="Update">Update </button>
+                                </div>
+                            </div>
+                        </div>
+                        <input class="hidden" hidden asp-for="Input.TicketRequestor" value="@Model.Ticket.TicketRequestor">
+                    }
+                </form>
+
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="buzz">
+                <br />
+
+                @if (Model.ApiKey.Count() == 0)
+                {
+                    <p>No API key configured</p>
+                    <p>
+                        Click
+                        <a href="~/Admin/AdminSettings"> here </a>to configure
+                    </p>
+
+                }
+                else
+                {
+                    <table class="col-md-12 table-bordered">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>State</th>
+                                <th>Subject</th>
+                                <th>Assigned To</th>
+                            </tr>
+                        </thead>
+                        @foreach (var Bug in Model.Ticket.Bugs)
+                        {
+
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="https://intation-development.visualstudio.com/@Bug.ProjectName/_workitems?id=@Bug.VstsBugId">@Bug.VstsBugId</a>
+                                    </td>
+                                    <td>@Bug.State</td>
+                                    <td>@Bug.Subject</td>
+                                    <td>@Bug.AssignedTo</td>
+                                </tr>
+                            </tbody>
+
+                        }
+                    </table>
+                    <br />
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <form method="post">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Add Workitem ID" asp-for="Input.WorkItemID">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-secondary" type="submit" value="Link" asp-page-handler="Link">Link</button>
+                                        <input type="hidden" asp-for="Input.TicketId" value="@Model.Ticket.TicketId">
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <a class="btn btn-default" asp-page="/Tickets/CreateBug" asp-route-id="@Model.Ticket.TicketId">Create a work item</a>
+                        </div>
+                    </div>
+                }
+
+
+
+
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="references">
+                <br />
+                <div class="container">
+                    <label><strong>Customer:</strong> </label>
+                    <div class="form-group">
+                        @if (Model.UserDetails == null)
+                        {
+                            <p>User not found.</p>
+                        }
+                        else
+                        {
+                            @Model.UserDetails.Firstname @Model.UserDetails.Lastname
+                        }
+
+                    </div>
+
+                    <div class="form-group">
+                        @if (Model.CompanyDetails == null)
+                        {
+                            <p>Company is not configured and no user was found for this ticket.</p>
+
+                            @if (Model.UserDetails != null)
+                            {
+                                <p> Company is not configured  <br /> Click <a asp-page="../Admin/AdminUserView" asp-route-id="@Model.UserDetails.Id"> here </a> to configure <br /><br />User Suggestion: @Model.UserDetails.Company</p>
+                            }
+
+                        }
+                        else
+                        {
+                            <div class="container">
+                                <label><strong>Company:</strong> <a href="~/Admin/AdminCompanyDetails/@Model.CompanyDetails.Id">@Model.CompanyDetails.Name</a> </label><br />
+                                <label>Email: @Model.CompanyDetails.Email</label><br />
+                                <label>Web: @Model.CompanyDetails.Homepage</label><br />
+                                <label>Contractlevel: @Model.CompanyDetails.ContractLevel</label>
+                            </div>
+
+                            <div class="container">
+                                @foreach (var contact in Model.CompanyDetails.Contacten)
+                                {
+                                    <div class="form-group">
+                                        <strong> Main Contact Person:</strong>
+                                    </div>
+                                    <div class="form-group">
+                                        <span class="fa fa-address-card-o">   </span>&nbsp;
+                                        @contact.JobTitle : @contact.Firstname @contact.Lastname
+                                    </div>
+                                    <div class="form-group">
+                                        <span class="fa fa-phone">    </span>&nbsp;&nbsp;
+                                        @contact.MPhone
+                                        @contact.Phone
+                                    </div>
+                                    <div class="form-group">
+                                        <span class="fa fa-envelope-o">  </span>&nbsp;
+                                        @contact.Email
+                                    </div>
+
+                                }
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+        </div>
+    </div>
+</div>
+
+<div class="row col-md-12">
+</div>
+
+
+<style>
+    .asText {
+        background: none;
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    img {
+        width: 100% !important;
+    }
+
+    .inactiveLink {
+        pointer-events: none;
+        cursor: default;
+    }
+
+    .col-md-7 {
+        float: left !important;
+    }
+
+    .col-md-5 {
+        float: right;
+        border-left: 1px solid #808080;
+    }
+
+    @@media (max-width: 767px) {
+        .col-md-7 {
+            float: right !important;
+        }
+
+        .col-md-5 {
+            float: left !important;
+            border-left: none;
+            border-bottom: 1px solid #808080;
+        }
+
+        .col-md-12 {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+</style>
+
+@section Scripts {
+
+    <script>
+        $(document).ready(function () {
+            $('#summernote').summernote({
+                height: 150
+            })
+            if ($('#summernote').summernote('maximumImageFileSize', '1048576')) {
+                alert('File is too large.')
+            };
+        });
+    </script>
+}

@@ -1,0 +1,94 @@
+﻿@page
+@model TicketSystem.Pages.Agent.AgentSettingsModel
+@{
+    ViewData["Title"] = "AgentSettings";
+}
+
+<body>
+    <br />
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 sidebar">
+                <div class="card card-default">
+                    <div class="card-header">
+                        <h5><strong>Agent Dashboard</strong></h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="sidebar-sticky">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Agent/AgentTickets">
+                                        <span class="fa fa-envelope"></span>
+                                        Tickets
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Agent/AgentCustomers">
+                                        <span class="fa fa-user"></span>
+                                        Customers
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Agent/AgentMailTickets">
+                                        <span class="fa fa-inbox"></span>
+                                        Mailbox
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-page="/Agent/AgentSettings">
+                                        <span class="fa fa-cog"></span>
+                                        Settings
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10">
+
+                <div class="card card-default">
+                    <div class="card-header">
+                        Settings
+                    </div>
+                    <div class="card-body col-md-8">
+                        @if (Model.ApiKeys.Count() == 0)
+                        {
+                            <form method="post" class="form-group">
+                                <div>
+                                    <label>Set your Visual Studio Team Services API Token:</label>
+                                </div>
+                                <div class="input-group col-md-6">
+                                    <input class="form-control" placeholder="new token" asp-for="Input.Key" />
+                                    <button class="btn btn-primary" asp-page-handler="SetVSTSToken">Set</button>
+                                </div>
+                            </form>
+                        }
+                        else
+                        {
+                            <form method="post">
+                                <p>You have already a VSTS API Key configured</p>
+                                <p>Delete this key first to configure a new key</p>
+                                @foreach (var item in Model.ApiKeys)
+                                {
+
+                                    <input type="hidden" asp-for="Input.id" value="@item.Id" />
+
+
+                                }
+
+                                <button class="btn btn-primary" asp-page-handler="DeleteToken">Delete current key</button>
+                            </form>
+                        }
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+
+</body>
+
