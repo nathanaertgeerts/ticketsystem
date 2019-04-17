@@ -1,0 +1,4134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eExact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="eExact-XML.xsd">
+	<Accounts>
+		<Account code="293" searchcode="8" status="S" ID="{612b4f8f-e83c-494e-b16a-28c8aeeade32}">
+			<Name>BancTec</Name>
+			<Phone>030 602 39 00</Phone>
+			<PhoneExt />
+			<Fax>0</Fax>
+			<Email>blx.informatie@banctec.co.uk</Email>
+			<HomePage>www.banctec.nl</HomePage>
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Address type="VIS" default="1" ID="{13367858-06f0-4042-bd76-0f924e925bf4}">
+				<AddressLine1>Weverstede 17</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>3431 JS</PostalCode>
+				<City>Nieuwegein</City>
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3393" searchcode="8" status="S" ID="{8e8b471d-050d-443a-b314-46b91e5839e9}">
+			<Name>InBev NL N.V.</Name>
+			<Phone>076 525 24 24</Phone>
+			<PhoneExt />
+			<Fax>0</Fax>
+			<Email>info.netherlands@interbrew.com</Email>
+			<HomePage>www.inbev.com</HomePage>
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Address type="VIS" default="1" ID="{8175498a-d713-4dcf-a4ad-589b56b0d229}">
+				<AddressLine1>Ceresstraat 1</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>-</PostalCode>
+				<City>Breda</City>
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3637" searchcode="8" status="S" ID="{ab31b434-da87-4c11-b716-903caade4813}">
+			<Name>van Gansewinkel Groep</Name>
+			<Phone>040 751 40 00</Phone>
+			<PhoneExt />
+			<Fax>0</Fax>
+			<Email>info@vangansewinkel.com</Email>
+			<HomePage>http://www.vangansewinkel.eu/</HomePage>
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Contact number="1385021" gender="O" default="1" ID="{ca544f53-571a-4dfd-8a7b-975dc7cbedb5}">
+				<LastName>Wolfs</LastName>
+				<MiddleName />
+				<BirthName>Wolfs</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Hans</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>+32 11560917</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>hans.wolfs@vangansewinkel.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description />
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{b5417202-dd0e-4214-98a8-6bee9721b39e}">
+				<AddressLine1>Flight Forum Flight F</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>5657 DH</PostalCode>
+				<City>Eindhoven</City>
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3307" searchcode="8" status="A" ID="{6f36a068-b9cd-4c77-b4f4-86360f45e29e}">
+			<Name>Egemin NV</Name>
+			<Phone>+32 3 641 12 12</Phone>
+			<PhoneExt />
+			<Fax>0</Fax>
+			<Email>info@egemin.be</Email>
+			<HomePage>www.egemin.be</HomePage>
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>0</IsSales>
+			<IsPurchase>0</IsPurchase>
+			<Contact number="1386869" gender="O" default="1" ID="{232b4d3f-3a19-4da0-b8b1-39afa97fcbb3}">
+				<LastName>Peirsman</LastName>
+				<MiddleName />
+				<BirthName>Peirsman</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Jan</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>+32 3 641 13 16</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>Jan.Peirsman@egemin.be</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Directeur Softwareontwikkeling</Description>
+				</Job>
+			</Contact>
+			<Contact number="1387748" gender="O" default="0" ID="{8af0e18a-c9aa-4395-b1fb-e9b101bb6fa3}">
+				<LastName>Van Betsbrugge</LastName>
+				<MiddleName />
+				<BirthName>Van Betsbrugge</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Wim</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>+32 3 641 12 85</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>wim.vanbetsbrugge@egemin.be</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Team Manager R&amp;D</Description>
+				</Job>
+			</Contact>
+			<Contact number="1385984" gender="O" default="0" ID="{2ea9666f-57cd-4fc7-be95-148adbc32dbb}">
+				<LastName>Van Hoof</LastName>
+				<MiddleName />
+				<BirthName>Van Hoof</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Luc</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>+32 3 641 12 12</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email />
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description />
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{86ca73e2-c91d-4c2e-a255-0883d68824e3}">
+				<AddressLine1>Baarbeek 1</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>B-2070</PostalCode>
+				<City>-</City>
+				<Country code="BE" />
+				<Phone />
+				<Fax />
+				<Contact number="1386869" ID="{232b4d3f-3a19-4da0-b8b1-39afa97fcbb3}" />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3299" searchcode="8" status="A" ID="{5e6322b0-c3d3-4047-89f5-6d52fcd8d933}">
+			<Name>Intation BVBA</Name>
+			<Phone>-</Phone>
+			<PhoneExt />
+			<Fax>0</Fax>
+			<Email>info@intation.eu</Email>
+			<HomePage>www.intation.eu</HomePage>
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>0</IsSales>
+			<IsPurchase>0</IsPurchase>
+			<Address type="VIS" default="1" ID="{2e158cbb-b17b-40eb-aebf-70a5e21cfda2}">
+				<AddressLine1>Dassenstraat</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>-</PostalCode>
+				<City>Geel</City>
+				<Country code="BE" />
+				<Phone />
+				<Fax />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="232" searchcode="8" status="S" ID="{b637a69d-d076-41b6-bf09-7fd524da8f82}">
+			<Name>ARN BV</Name>
+			<Phone>024-3717171</Phone>
+			<PhoneExt />
+			<Fax>0</Fax>
+			<Email>info@arnbv.nl</Email>
+			<HomePage>www.arnbv.nl</HomePage>
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Contact number="1385871" gender="O" default="0" ID="{2adeab69-e5c5-461b-8ca8-1d927ada025c}">
+				<LastName>van Gorkum</LastName>
+				<MiddleName />
+				<BirthName>van Gorkum</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Gerard</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>024-3717171</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email />
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description />
+				</Job>
+			</Contact>
+			<Contact number="1386384" gender="O" default="1" ID="{843d651c-cb71-4053-9be6-6cb3e04c08b2}">
+				<LastName>Hendriks</LastName>
+				<MiddleName />
+				<BirthName>Hendriks</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Jan</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>024-3717171</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email />
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description />
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{78def386-7eb4-45b4-a57e-8bae0e13cb5d}">
+				<AddressLine1>Nieuwe Pieckelaan 1</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>6551 DX</PostalCode>
+				<City>Weurt</City>
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="291" searchcode="8" status="S" ID="{75bc8c95-f237-411f-ad5f-9fcb14487d26}">
+			<Name>Balta Rugs</Name>
+			<Phone>+32 (0)56 62 22 11</Phone>
+			<PhoneExt />
+			<Fax>0</Fax>
+			<Email>rugs@baltagroup.com</Email>
+			<HomePage>www.baltagroup.com</HomePage>
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Contact number="1386437" gender="O" default="1" ID="{00d1d3c4-8dfc-4cbc-82cd-819dc8073fb6}">
+				<LastName>Vanheuverbeke</LastName>
+				<MiddleName />
+				<BirthName>Vanheuverbeke</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Curd</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>+32 (0)56 622 389</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>curd.vanheuverbeke@baltagroup.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>verantwoordelijk voor EDI</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{4e1b5916-11d3-4f35-b479-c1213a7eda70}">
+				<AddressLine1>Wakkensteenweg 2</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>8710</PostalCode>
+				<City>St-Baafs-Wijve</City>
+				<Country code="BE" />
+				<Phone />
+				<Fax />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3239" searchcode="8" status="S" ID="{1bbcfbac-607f-4317-9f64-e4dfce8a29ab}">
+			<Name>Cindu Chemicals BV</Name>
+			<Phone>+31 0297545533</Phone>
+			<PhoneExt />
+			<Fax>0</Fax>
+			<Email>info@cindu.nl</Email>
+			<HomePage />
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Contact number="1386638" gender="O" default="1" ID="{36e15cde-20df-4de9-a8d9-3da5c04c57a2}">
+				<LastName>Pernis</LastName>
+				<MiddleName />
+				<BirthName>Pernis</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName />
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>+31 0297545533</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email />
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Algemeen Directeur</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{007e6f5b-b79e-44b0-9793-41a9db8ca88c}">
+				<AddressLine1>Amsteldijk-Noord 35</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>1422 XX</PostalCode>
+				<City>Uithoorn</City>
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3343" searchcode="8" status="S" ID="{83651be4-e750-4bd8-834b-f3dc3e8ee580}">
+			<Name>Fleuren Tankopslag</Name>
+			<Phone>0031(0)24 - 355.17.53</Phone>
+			<PhoneExt />
+			<Fax>0</Fax>
+			<Email>info@fleurentankopslag.nl</Email>
+			<HomePage>http://www.fleurentankopslag.nl</HomePage>
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Contact number="1387014" gender="O" default="1" ID="{dfd0a3da-4b1a-47ed-8ea2-3288bbb7cba8}">
+				<LastName>Fleuren</LastName>
+				<MiddleName />
+				<BirthName>Fleuren</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Gerald</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>0031(0)24 - 355.17.53</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile>0031(0)6 - 29.57.50.</Mobile>
+				<Email>info@fleurentankopslag.nl</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description />
+				</Job>
+			</Contact>
+			<Contact number="1387013" gender="O" default="0" ID="{6e7e084d-5476-4b2c-9606-08d6aae05b29}">
+				<LastName>Fleuren</LastName>
+				<MiddleName />
+				<BirthName>Fleuren</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Gerald</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>0031(0)24 - 355.17.53</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile>0031(0)6 - 29.57.50.</Mobile>
+				<Email>info@fleurentankopslag.nl</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description />
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{c086866a-7cf2-41d4-9cbe-81e31c6af911}">
+				<AddressLine1>Oostkanaaldijk 2</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>6535</PostalCode>
+				<City>NIJMEGEN</City>
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3344" searchcode="8" status="S" ID="{ff151030-588b-4e4d-80e6-0cb35ad9bd01}">
+			<Name>Flint Ink Winschoten BV</Name>
+			<Phone>+31 0597416853</Phone>
+			<PhoneExt />
+			<Fax>0</Fax>
+			<Email>info@flintgrp.com</Email>
+			<HomePage>www.flintgrp.com</HomePage>
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Contact number="1387016" gender="O" default="1" ID="{3dde5890-daa5-4d9e-b937-6e9a919a0f86}">
+				<LastName>Smid</LastName>
+				<MiddleName />
+				<BirthName>Smid</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName />
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>+31 0597416853</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>gert.smid@eu.flintgrp.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Hoofd technische dienst</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{53c6fbb3-290a-4786-93c3-98c6a3ed02b5}">
+				<AddressLine1>Lijnbaan 6</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>9672 BL</PostalCode>
+				<City>Winschoten</City>
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3354" searchcode="8" status="S" ID="{f322ee19-cd2e-4537-a510-490625039a10}">
+			<Name>FUJIFILM NL</Name>
+			<Phone>010 2812345</Phone>
+			<PhoneExt />
+			<Fax>0</Fax>
+			<Email>fuji@fujifilm.nl</Email>
+			<HomePage>www.fujifilm.nl</HomePage>
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Address type="VIS" default="1" ID="{37ce1540-c353-4790-b95e-f386ba7d92a5}">
+				<AddressLine1>Hoogstraat 39</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>3011 PE</PostalCode>
+				<City>Rotterdam</City>
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3396" searchcode="8" status="S" ID="{a2c06f2b-5d51-4025-92e2-7c902431aa8b}">
+			<Name>Ineos Nova Netherlands BV</Name>
+			<Phone>+31 0765790000</Phone>
+			<PhoneExt />
+			<Fax>0</Fax>
+			<Email>info@ineos-nova.com</Email>
+			<HomePage>www.ineos-nova.com</HomePage>
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Contact number="1387206" gender="O" default="1" ID="{971c06dc-ce4f-47ba-86c2-762867aa49e2}">
+				<LastName>Gils</LastName>
+				<MiddleName />
+				<BirthName>Gils</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName />
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>+31 0765790000</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>jan.vangils@ineos-nova.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Hoofd technische dienst</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{eda791d3-e4f8-41de-a534-ebbcd065d519}">
+				<AddressLine1>Lijndonk 25</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>4825 BG</PostalCode>
+				<City>Breda</City>
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3425" searchcode="8" status="S" ID="{b868666b-4b5f-4096-968c-cf223e0fe28a}">
+			<Name>Kisuma Chemicals BV</Name>
+			<Phone>+31 0598666766</Phone>
+			<PhoneExt />
+			<Fax>0</Fax>
+			<Email>info@kisuma.com</Email>
+			<HomePage>www.kisuma.com</HomePage>
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Contact number="1387361" gender="O" default="1" ID="{ce60b51a-7d3f-4b90-91b9-01138b82dade}">
+				<LastName>Ytsma</LastName>
+				<MiddleName />
+				<BirthName>Ytsma</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName />
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>+31 0598666766</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>ytsma@kisuma.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Beslissingsbevoegde</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{60809308-b2ea-44b4-997e-eac6e5cc28ec}">
+				<AddressLine1>Billitonweg 7</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>9641 KZ</PostalCode>
+				<City>Veendam</City>
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3615" searchcode="8" status="S" ID="{5a1ee46e-5d5d-4c49-a2bb-9d77f479b5a3}">
+			<Name>Trans Ver Oils</Name>
+			<Phone>3238771533</Phone>
+			<PhoneExt />
+			<Fax>0</Fax>
+			<Email>operations@transveroils.be</Email>
+			<HomePage />
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Contact number="1387732" gender="O" default="1" ID="{9b464572-cc1b-4a23-b434-1338649e0bc8}">
+				<LastName>Peeters</LastName>
+				<MiddleName />
+				<BirthName>Peeters</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Frank</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>3238703543</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile>32475785204</Mobile>
+				<Email>fpeeters@transveroils.be</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Head Operations &amp; Maintenance</Description>
+				</Job>
+			</Contact>
+			<Contact number="1387730" gender="O" default="0" ID="{1f8e16af-c8cb-49cd-a873-4f73473f6158}">
+				<LastName>Bongaerts</LastName>
+				<MiddleName />
+				<BirthName>Bongaerts</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Eddy</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>3238771533</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email />
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description />
+				</Job>
+			</Contact>
+			<Contact number="1387729" gender="O" default="0" ID="{1b7cfa5b-b97f-4006-9e27-690f65dc5757}">
+				<LastName>baeyens</LastName>
+				<MiddleName />
+				<BirthName>baeyens</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>John</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>3238771533</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email />
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description />
+				</Job>
+			</Contact>
+			<Contact number="1387731" gender="O" default="0" ID="{3cac8fea-10e6-4c6d-a6fa-206252a165f0}">
+				<LastName>Vandenbril</LastName>
+				<MiddleName />
+				<BirthName>Vandenbril</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Jan</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>+32 3 870 35 41</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email />
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Plant Manager</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{7ca78350-aa98-46c1-8cfb-760c4ba26139}">
+				<AddressLine1>Terlochtweg 60-</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>2620</PostalCode>
+				<City>Hemiksem</City>
+				<Country code="BE" />
+				<Phone />
+				<Fax />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3622" searchcode="8" status="S" ID="{3fe60c3d-b4d4-40b4-92a8-a899571d6399}">
+			<Name>Twence B.V.</Name>
+			<Phone>074 240 44 44</Phone>
+			<PhoneExt />
+			<Fax>0</Fax>
+			<Email>info@twence.nl</Email>
+			<HomePage>www.twence.nl</HomePage>
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Contact number="1387741" gender="O" default="1" ID="{9dda91b6-58e2-4f2b-8aac-718ce136f5c6}">
+				<LastName>Slaghuis</LastName>
+				<MiddleName />
+				<BirthName>Slaghuis</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Herman</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>074 240 44 44</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile>06 51 27 00 54</Mobile>
+				<Email>h.slaghuis@twence.nl</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>hoofd informatisering</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{d07e2f72-299b-4907-98e1-3a5d7b5b00a8}">
+				<AddressLine1>Boldershoekweg 51</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>7554 RT</PostalCode>
+				<City>-</City>
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3631" searchcode="8" status="S" ID="{ffb0a3ff-51fb-4eb6-b7bb-a86e9f113af0}">
+			<Name>Van Dam Bodegraven BV</Name>
+			<Phone>+31 0172619331</Phone>
+			<PhoneExt />
+			<Fax>0</Fax>
+			<Email>dam@vandambodegraven.nl</Email>
+			<HomePage>www.vandambodegraven.nl</HomePage>
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Contact number="1385007" gender="O" default="1" ID="{3a77d414-cbfb-444f-8b6c-9b01a44bef11}">
+				<LastName>Steentjes</LastName>
+				<MiddleName />
+				<BirthName>Steentjes</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName />
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>+31 0172619331</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>steentjes@vandambodegraven.nl</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Hoofd technische dienst</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{f2da1432-82d1-4aed-841d-70817617ebae}">
+				<AddressLine1>Beneluxweg 6</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>2411 NG</PostalCode>
+				<City>Bodegraven</City>
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="5037" searchcode="" status="S" ID="{14238e76-99e9-460a-9a16-81ebb5d40085}">
+			<Name>Gasunie</Name>
+			<Phone>31505212179</Phone>
+			<PhoneExt />
+			<Fax />
+			<Email>k.a.van.zalk@gasunie.nl</Email>
+			<HomePage />
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Address type="VIS" default="1" ID="{9230c4d3-3d68-4d8d-9cbd-02c6441232b9}">
+				<AddressLine1>Concourslaan 17</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>9727 KC</PostalCode>
+				<City>Groningen</City>
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+			</Address>
+			<Note><![CDATA[Energiproductie en distrubutie]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-08</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="5109" searchcode="" status="A" ID="{ce086446-182e-4246-80e3-c3d0bea21a5e}">
+			<Name>Vanroey</Name>
+			<Phone>+32 14 470 605</Phone>
+			<PhoneExt />
+			<Fax />
+			<Email>business@vanroey.be</Email>
+			<HomePage />
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>0</IsSales>
+			<IsPurchase>0</IsPurchase>
+			<Contact number="1387746" gender="O" default="1" ID="{35fe5c6c-785e-4da6-9f5f-357578051c3e}">
+				<LastName>Massaer</LastName>
+				<MiddleName />
+				<BirthName>Massaer</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Luk</FirstName>
+				<Initials>L.</Initials>
+				<Language code="NL-BE" />
+				<Phone>+32 14 47 06 44</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile>+32 490 564 904</Mobile>
+				<Email>luk.massaer@vanroey.be</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Business Development Manager</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{91c6ca5c-94de-4fb9-8104-b7cfa8cb65e4}">
+				<AddressLine1>Kempenlaan 2</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>2300</PostalCode>
+				<City>Turnhout</City>
+				<State code="ANT" />
+				<Country code="BE" />
+				<Phone />
+				<Fax />
+				<Contact number="1387746" ID="{35fe5c6c-785e-4da6-9f5f-357578051c3e}" />
+			</Address>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2016-03-16</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="5111" searchcode="" status="A" ID="{38dcdac5-7275-45eb-b8f8-fa691a69bd1b}">
+			<Name>Aucxis Cvba</Name>
+			<Phone>+32 3 790 17 17</Phone>
+			<PhoneExt />
+			<Fax />
+			<Email>info@aucxis.com</Email>
+			<HomePage>www.aucxis.com</HomePage>
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>0</IsSales>
+			<IsPurchase>0</IsPurchase>
+			<Contact number="1387749" gender="O" default="1" ID="{baf8ea30-a272-478e-a7a7-0e6464ade13a}">
+				<LastName>Scrivens</LastName>
+				<MiddleName />
+				<BirthName>Scrivens</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Jason</FirstName>
+				<Initials>J.</Initials>
+				<Language code="NL-BE" />
+				<Phone />
+				<PhoneExt />
+				<Fax />
+				<Mobile>+32 479 69 49 46</Mobile>
+				<Email>jason.scrivens@aucxis.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Business Unit Manager RFID</Description>
+				</Job>
+			</Contact>
+			<Contact number="1387750" gender="O" default="0" ID="{5d1aeab6-aca1-4174-8592-46ade1629499}">
+				<LastName>Storme</LastName>
+				<MiddleName />
+				<BirthName>Storme</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Gunther</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone />
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>gunther.storme@aucxis.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>RFID Business Consultant/Project Manager</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{10904f1e-3889-47a9-abf4-f6236d65711d}">
+				<AddressLine1>Zavelstraat 40</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>9190</PostalCode>
+				<City>Stekene</City>
+				<State code="O-V" />
+				<Country code="BE" />
+				<Phone />
+				<Fax />
+				<Contact number="1387749" ID="{baf8ea30-a272-478e-a7a7-0e6464ade13a}" />
+			</Address>
+			<VATNumber>BE0429285178</VATNumber>
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2016-03-16</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="5112" searchcode="" status="A" ID="{6f53ae25-8eca-48c3-b1dc-2ff5e7355ce7}">
+			<Name>Denk Ip Bvba</Name>
+			<Phone />
+			<PhoneExt />
+			<Fax />
+			<Email>info@denkip.com</Email>
+			<HomePage>www.denkip.com</HomePage>
+			<IsSupplier>1</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>0</IsSales>
+			<IsPurchase>0</IsPurchase>
+			<Contact number="1387752" gender="O" default="1" ID="{b7e8d2d8-b287-4f20-be0e-97bc252abf3c}">
+				<LastName>Wauters</LastName>
+				<MiddleName />
+				<BirthName>Wauters</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Davy</FirstName>
+				<Initials>D.</Initials>
+				<Language code="NL-BE" />
+				<Phone>+32 15 48 01 59</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>davy.wauters@denkip.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Managing director</Description>
+				</Job>
+			</Contact>
+			<Contact number="1387753" gender="O" default="0" ID="{1e52ae0f-b4df-46c5-b845-3ec672309849}">
+				<LastName>Shamuilia</LastName>
+				<MiddleName />
+				<BirthName>Shamuilia</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Sheron</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>+32 15 48 01 59</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>sheron.shamuilia@denkip.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Patent Engineer</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{8923a19a-fb14-4ded-968b-2ec826d18bc4}">
+				<AddressLine1>Hundelgemsesteenweg 1114</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>9820</PostalCode>
+				<City>Merelbeke</City>
+				<State code="O-V" />
+				<Country code="BE" />
+				<Phone />
+				<Fax />
+				<Contact number="1387752" ID="{b7e8d2d8-b287-4f20-be0e-97bc252abf3c}" />
+			</Address>
+			<BankAccount code="BE90068251279032" format="BEIB" default="1">
+				<Currency code="EUR" />
+				<Country code="BE" />
+				<BICCode>GKCCBEBB</BICCode>
+				<IBAN>BE90068251279032</IBAN>
+			</BankAccount>
+			<VATNumber>BE0809963559</VATNumber>
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2016-03-16</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3318" searchcode="8" status="C" ID="{0ab8e515-8f38-4110-8bde-0d445edcc390}">
+			<Name>Emerson &amp; Cuming Mircrowave Products NV</Name>
+			<Phone>+32-14-56 25 00</Phone>
+			<PhoneExt />
+			<Fax>0</Fax>
+			<Email>sales@eu.eccosorb.com</Email>
+			<HomePage>www.eccosorb.com</HomePage>
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Contact number="1386891" gender="O" default="1" ID="{3aa43cf5-97fd-4942-9f9f-282f8096392a}">
+				<LastName>Arin</LastName>
+				<MiddleName />
+				<BirthName>Arin</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName />
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>+32-14-56 25 00</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email />
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description />
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{e8823b7f-e075-4b3e-922d-b622babccac9}">
+				<AddressLine1>Nijverheidsstraat 7</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>B2260</PostalCode>
+				<City>-</City>
+				<Country code="BE" />
+				<Phone />
+				<Fax />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3261" searchcode="8" status="A" ID="{b76d7f79-8743-4cb7-bd71-723747854582}">
+			<Name>Danfoss B.V.</Name>
+			<Phone>010 2492000</Phone>
+			<PhoneExt />
+			<Fax>0</Fax>
+			<Email>info@danfoss.nl</Email>
+			<HomePage>www.danfoss.com</HomePage>
+			<IsSupplier>1</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>0</IsSales>
+			<IsPurchase>0</IsPurchase>
+			<Address type="VIS" default="1" ID="{63411cef-9c71-40d3-9ccf-6634c3beee5c}">
+				<AddressLine1>Admiraal Lucashof 3</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>3115HM</PostalCode>
+				<City>Schiedam</City>
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3321" searchcode="8" status="A" ID="{2313b850-4ef5-4936-9379-322b3c369ae2}">
+			<Name>Honeywell Process Solutions</Name>
+			<Phone>015  2701 100</Phone>
+			<PhoneExt />
+			<Fax>0</Fax>
+			<Email>info@enraf.nl</Email>
+			<HomePage>process-solutions.honeywell.nl/nl-NL/Pages/default.aspx</HomePage>
+			<IsSupplier>1</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>0</IsSales>
+			<IsPurchase>0</IsPurchase>
+			<Contact number="1387177" gender="O" default="1" ID="{b4764f9c-71ea-45b0-8003-b737a78ad13a}">
+				<LastName>Volgers</LastName>
+				<MiddleName />
+				<BirthName>Volgers</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Wil</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>020 56 56 209</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile>06 52 02 01 22</Mobile>
+				<Email>wil.volgers@honeywell.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Global Program Manager</Description>
+				</Job>
+			</Contact>
+			<Contact number="1385049" gender="O" default="0" ID="{301ad06c-eaab-433e-aea0-47cff23429b4}">
+				<LastName>van der Kraats</LastName>
+				<MiddleName />
+				<BirthName>van der Kraats</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Rudi</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>31152701252</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile>31653728714</Mobile>
+				<Email>rudi.van.der.kraats@honeywell.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Regional Sales Manager Field Solutions Northern Europe</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{29400ba0-0277-43a0-8266-28596bd9b22f}">
+				<AddressLine1>Delftechpark 39</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>2628 XJ</PostalCode>
+				<City>Delft</City>
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+				<Contact number="1387177" ID="{b4764f9c-71ea-45b0-8003-b737a78ad13a}" />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3387" searchcode="8" status="A" ID="{6fd7495d-9549-467d-a018-582074648186}">
+			<Name>Honeywell BV</Name>
+			<Phone>+31 0591695911</Phone>
+			<PhoneExt />
+			<Fax>0</Fax>
+			<Email>info@honeywell.nl</Email>
+			<HomePage>www.honeywell.nl</HomePage>
+			<IsSupplier>1</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>0</IsSales>
+			<IsPurchase>0</IsPurchase>
+			<Contact number="1387176" gender="O" default="1" ID="{391e4119-91a9-4d86-99af-1abefd983126}">
+				<LastName>Ziengs</LastName>
+				<MiddleName />
+				<BirthName>Ziengs</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Jan</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>06 54 27 51 13</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>jan.ziengs@honeywell.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Team Leader Maintenance</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{295fbfa1-15c9-47a1-ae37-1b07c366588d}">
+				<AddressLine1>Phileasfoggstraat 7</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>7821 AJ</PostalCode>
+				<City>Emmen</City>
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+				<Contact number="1387176" ID="{391e4119-91a9-4d86-99af-1abefd983126}" />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3539" searchcode="8" status="S" ID="{68acf4a6-faff-4379-ad11-a68ddf05cf89}">
+			<Name>Rompa Kunststofprodukten b.v.</Name>
+			<Phone>076 5937700</Phone>
+			<PhoneExt />
+			<Fax>0</Fax>
+			<Email>rompanl@rompa.nl</Email>
+			<HomePage>www.rompagroup.nl</HomePage>
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Contact number="1387664" gender="O" default="1" ID="{323bed23-e982-4956-a6bb-ba2f4ced35f4}">
+				<LastName>Gilles</LastName>
+				<MiddleName />
+				<BirthName>Gilles</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Marcel</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>076 5937700</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email />
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description />
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{0f1eeffc-a28e-4c21-b9e7-931d61f0da89}">
+				<AddressLine1>Bredaseweg 14</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>4844 CL</PostalCode>
+				<City>Terheyden</City>
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+				<Contact number="1387664" ID="{323bed23-e982-4956-a6bb-ba2f4ced35f4}" />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3678" searchcode="8" status="A" ID="{cf386ab3-b257-4d41-a078-4da7a21ee6ea}">
+			<Name>FHI</Name>
+			<Phone>033 465 75 07</Phone>
+			<PhoneExt />
+			<Fax>0</Fax>
+			<Email>info@fhi.nl</Email>
+			<HomePage>federatie.fhi.nl</HomePage>
+			<IsSupplier>1</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>0</IsSales>
+			<IsPurchase>0</IsPurchase>
+			<Address type="VIS" default="1" ID="{b22eb358-b298-4875-a90f-bd5ecc971dfc}">
+				<AddressLine1>Dodeweg 6, geb. B</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>3832 RC</PostalCode>
+				<City>Leusden</City>
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="5341" searchcode="" status="A" ID="{be37a762-2a22-4fac-8f23-2dde7d12658f}">
+			<Name>Aucxis Cvba</Name>
+			<Phone />
+			<PhoneExt />
+			<Fax />
+			<Email>info@aucxis.com</Email>
+			<HomePage>www.aucxis.com</HomePage>
+			<IsSupplier>1</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>0</IsSales>
+			<IsPurchase>0</IsPurchase>
+			<Contact number="1387817" gender="O" default="1" ID="{5f8364f5-20fb-45e2-8f67-f933f47a5e0c}">
+				<LastName>Suanet</LastName>
+				<MiddleName />
+				<BirthName>Suanet</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Pieter</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>+3237901717</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>pieter.suanet@aucxis.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>RFID consultant - R&amp;D Engineer</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{8cdc278a-f8ac-4240-845e-0ee67044002c}">
+				<AddressLine1>Zavelstraat 40</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>9190</PostalCode>
+				<City>Stekene</City>
+				<State code="O-V" />
+				<Country code="BE" />
+				<Phone />
+				<Fax />
+				<Contact number="1387817" ID="{5f8364f5-20fb-45e2-8f67-f933f47a5e0c}" />
+			</Address>
+			<VATNumber>BE0429285178</VATNumber>
+			<VATLiability />
+			<GovernmentVATSystem>0</GovernmentVATSystem>
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2016-09-26</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="5359" searchcode="" status="A" ID="{d67b0d4c-3e17-4e34-a72f-98e5b8b3bf01}">
+			<Name>Rabobank Zeeuws-Vlaanderen</Name>
+			<Phone>+31115678400</Phone>
+			<PhoneExt />
+			<Fax />
+			<Email>bedrijven.zvl@rabobank.nl</Email>
+			<HomePage>www.rabobank.nl/zvl</HomePage>
+			<IsSupplier>1</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>0</IsSales>
+			<IsPurchase>0</IsPurchase>
+			<Contact number="1387834" gender="O" default="1" ID="{4f148043-1198-481e-8017-4a219eaebf1a}">
+				<LastName>Tevel</LastName>
+				<MiddleName />
+				<BirthName>Tevel</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Willem</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone />
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email />
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Senior Accountmanager MKB</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{dccb4b21-f3f3-4309-80f4-dff7b627a040}">
+				<AddressLine1>Herengracht 1</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>4531GM</PostalCode>
+				<City />
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+				<Contact number="1387834" ID="{4f148043-1198-481e-8017-4a219eaebf1a}" />
+			</Address>
+			<VATNumber />
+			<VATLiability />
+			<GovernmentVATSystem>0</GovernmentVATSystem>
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2016-11-15</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="5100" searchcode="" status="A" ID="{ef823c19-912b-4401-b3ec-b086f5162b9e}">
+			<Name>Voka</Name>
+			<Phone>+32 14 56 30 30</Phone>
+			<PhoneExt />
+			<Fax>+32 14 59 31 00</Fax>
+			<Email>info@kvkkempen.voka.be</Email>
+			<HomePage>http://www.kvkkempen.voka.be</HomePage>
+			<IsSupplier>1</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>0</IsSales>
+			<IsPurchase>0</IsPurchase>
+			<Address type="VIS" default="1" ID="{0f322ad3-990c-4e35-bc54-a138aba12c4e}">
+				<AddressLine1>Kleinhoefstraat 9</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>2440</PostalCode>
+				<City>Geel</City>
+				<Country code="BE" />
+				<Phone />
+				<Fax />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2015-10-01</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="5034" searchcode="" status="A" ID="{03efba07-3fac-4090-8779-e10698d3df18}">
+			<Name>ROC West Brabant</Name>
+			<Phone>076 504 80 00</Phone>
+			<PhoneExt />
+			<Fax>076 504 80 10</Fax>
+			<Email>infopunt@rocwb.nl</Email>
+			<HomePage>http://www.rocwb.nl</HomePage>
+			<IsSupplier>1</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>0</IsSales>
+			<IsPurchase>0</IsPurchase>
+			<Contact number="1385779" gender="O" default="1" ID="{7b88424c-a031-4465-89c7-0251eb8afc79}">
+				<LastName>Bleumer</LastName>
+				<MiddleName />
+				<BirthName>Bleumer</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Frans</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>076 573 3446</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>f.bleumer@rocwb.nl</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description />
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{55864750-1d20-4477-9ac1-fad4556b51b2}">
+				<AddressLine1>Postbus 699</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>4870 AR</PostalCode>
+				<City>Etten-Leur</City>
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+				<Contact number="1385779" ID="{7b88424c-a031-4465-89c7-0251eb8afc79}" />
+			</Address>
+			<Note><![CDATA[Bestuurscentrum ROC West Brabant]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-15</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="5035" searchcode="" status="S" ID="{8b35b1e9-26ad-48a7-b0ac-db888d3a0dd4}">
+			<Name>DMV</Name>
+			<Phone>0</Phone>
+			<PhoneExt />
+			<Fax />
+			<Email>berrie.cromsigt@frieslandcampina.com</Email>
+			<HomePage>www.dmv.nl</HomePage>
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Address type="VIS" default="1" ID="{3151f4ab-3a2a-4c3b-8afe-f26806c80f50}">
+				<AddressLine1>NCB-laan 68</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>5462</PostalCode>
+				<City>Veghel</City>
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+			</Address>
+			<Note><![CDATA[Voeding en genotsindustrie]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-08</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3562" searchcode="8" status="S" ID="{ed065618-60f7-4e1b-a264-c3c796bd22ae}">
+			<Name>SITA NL Holding BV</Name>
+			<Phone>026 4001444</Phone>
+			<PhoneExt />
+			<Fax>0</Fax>
+			<Email>info@sita.nl</Email>
+			<HomePage>www.sita.nl</HomePage>
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Contact number="1387859" gender="O" default="1" ID="{658d1558-cdf5-4d9d-8041-67dafb6cf62d}">
+				<LastName>Smits</LastName>
+				<MiddleName />
+				<BirthName>Smits</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Roelof</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>+31264001444</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>roelof.smits@sita.nl</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description />
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{83358a24-c565-4938-988d-7eb4bb8a7274}">
+				<AddressLine1>Mr. E.N. van Kleffensstraat 6</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>6842 CV</PostalCode>
+				<City>Arnhem</City>
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3105" searchcode="" status="C" ID="{ac60214e-c88a-410c-b28b-5774415093fe}">
+			<Name>Yokogawa Europe Solutions B.V.</Name>
+			<Phone>+31 88 4641000</Phone>
+			<PhoneExt />
+			<Fax>+31 88 4641095</Fax>
+			<Email>info@nl.yokogawa.com</Email>
+			<HomePage />
+			<IsSupplier>1</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Contact number="1385778" gender="O" default="1" ID="{a94531db-a984-4a2b-bf7b-ecd758637d29}">
+				<LastName>Hellinghuizer</LastName>
+				<MiddleName />
+				<BirthName>Hellinghuizer</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Mark</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>088-4641295</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>mark.hellinghuizer@nl.yokogawa.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Plant Network Security Manager</Description>
+				</Job>
+			</Contact>
+			<Contact number="1385241" gender="O" default="0" ID="{398065f4-d390-4855-a586-4917c0b8b651}">
+				<LastName>van Ottelo</LastName>
+				<MiddleName />
+				<BirthName>van Ottelo</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Mark</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>030-6357777</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>mark.van.ottelo@nl.yokogawa.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>European Engineering director</Description>
+				</Job>
+			</Contact>
+			<Contact number="1387798" gender="O" default="0" ID="{f8e55375-b6e8-42ee-b646-fd91e5bb0c31}">
+				<LastName>Hoksbergen</LastName>
+				<MiddleName />
+				<BirthName>Hoksbergen</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>John</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone />
+				<PhoneExt />
+				<Fax />
+				<Mobile>+31610124364</Mobile>
+				<Email>John.Hoksbergen@nl.yokogawa.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description />
+				</Job>
+			</Contact>
+			<Contact number="1385768" gender="O" default="0" ID="{7d6b7c88-584a-4292-a05f-c520801e477f}">
+				<LastName>Ruisbroek</LastName>
+				<MiddleName />
+				<BirthName>Ruisbroek</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Eefke</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>030-6357777</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>eefke.ruisbroek@nl.yokogawa.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Recruiter</Description>
+				</Job>
+			</Contact>
+			<Contact number="1387799" gender="O" default="0" ID="{7c70306d-25b3-4bec-aab3-cb31c8320f37}">
+				<LastName>van Maanen</LastName>
+				<MiddleName />
+				<BirthName>van Maanen</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Claudia</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>+31884641177</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>claudia.van.maanen@nl.yokogawa.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Social Media Recruiter</Description>
+				</Job>
+			</Contact>
+			<Contact number="1387800" gender="O" default="0" ID="{09723a50-50c6-4045-ae62-97432dbf6c25}">
+				<LastName>Malilay</LastName>
+				<MiddleName />
+				<BirthName>Malilay</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Methyle</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone />
+				<PhoneExt />
+				<Fax />
+				<Mobile>+31622958748</Mobile>
+				<Email />
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description />
+				</Job>
+			</Contact>
+			<Contact number="1385770" gender="O" default="0" ID="{c4b07c15-2780-4048-a660-1dec40483091}">
+				<LastName>Dorresteijn</LastName>
+				<MiddleName />
+				<BirthName>Dorresteijn</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Pim</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>030-6357777</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>pim.dorresteijn@nl.yokogawa.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Engineering Manager</Description>
+				</Job>
+			</Contact>
+			<Contact number="1385769" gender="O" default="0" ID="{dce4debd-a77e-4d8a-887d-895278bd6413}">
+				<LastName>Vermeulen</LastName>
+				<MiddleName />
+				<BirthName>Vermeulen</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Bianca</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>030-6357777</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>bianca.vermeulen@nl.yokogawa.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Human Resource Manager</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{65d7b968-9c0c-4af2-ae18-4f3fa23b6a49}">
+				<AddressLine1>P.O. Box 163</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>3800 AD</PostalCode>
+				<City>Amersfoort</City>
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+				<Contact number="1385778" ID="{a94531db-a984-4a2b-bf7b-ecd758637d29}" />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber>NL006091489B01</VATNumber>
+			<VATLiability />
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<SalesPaymentCondition code="45">
+				<Description>45 dagen factuurdatum</Description>
+				<PaymentDiscountType>B</PaymentDiscountType>
+				<PaymentMethod>B</PaymentMethod>
+				<PaymentEndOfMonths>0</PaymentEndOfMonths>
+				<PaymentDays>45</PaymentDays>
+				<DiscountPaymentDays>0</DiscountPaymentDays>
+				<DiscountPercentage>0</DiscountPercentage>
+				<DiscountCalculation>E</DiscountCalculation>
+				<VATCalculation>I</VATCalculation>
+			</SalesPaymentCondition>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="5366" searchcode="" status="A" ID="{aef8af99-7c5d-456d-bcda-b2d7b07be517}">
+			<Name>Bank Van Breda</Name>
+			<Phone>+3214216842</Phone>
+			<PhoneExt />
+			<Fax />
+			<Email>herentals@bankvanbreda.be</Email>
+			<HomePage>www.bankvanbreda.be</HomePage>
+			<IsSupplier>1</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>0</IsSales>
+			<IsPurchase>0</IsPurchase>
+			<Contact number="1387863" gender="O" default="1" ID="{57575934-fe09-4f5f-8ebe-4fbf736400dc}">
+				<LastName>Damen</LastName>
+				<MiddleName />
+				<BirthName>Damen</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Lore</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone />
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email />
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Account manager ondernemers</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{abca98eb-fb5c-4608-9c0a-336a59a4c758}">
+				<AddressLine1>Sint Jobsstraat 111</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>2200</PostalCode>
+				<City>Herentals</City>
+				<State code="ANT" />
+				<Country code="BE" />
+				<Phone />
+				<Fax />
+				<Contact number="1387863" ID="{57575934-fe09-4f5f-8ebe-4fbf736400dc}" />
+			</Address>
+			<VATNumber />
+			<VATLiability />
+			<GovernmentVATSystem>0</GovernmentVATSystem>
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2016-12-27</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="5382" searchcode="" status="S" ID="{c74f8263-be62-4c1e-aa7a-3a6a5df6e31f}">
+			<Name>Econcore Nv</Name>
+			<Phone>+3216381066</Phone>
+			<PhoneExt />
+			<Fax />
+			<Email>info@econcore.com</Email>
+			<HomePage>www.econcore.com</HomePage>
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Contact number="1388709" gender="O" default="1" ID="{b89a5e8d-49b5-4316-8a41-ca8d706f6be4}">
+				<LastName>Czarnecki</LastName>
+				<MiddleName />
+				<BirthName>Czarnecki</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Tomasz</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone />
+				<PhoneExt />
+				<Fax />
+				<Mobile>+32492660614</Mobile>
+				<Email>tomasz.czarnecki@econcore.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Chief Operating Officer</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{408723c7-cbd2-41bb-96d6-5db632590c21}">
+				<AddressLine1>Ambachtenlaan 25</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>3001</PostalCode>
+				<City>Heverlee</City>
+				<State code="V-B" />
+				<Country code="BE" />
+				<Phone />
+				<Fax />
+				<Contact number="1388709" ID="{b89a5e8d-49b5-4316-8a41-ca8d706f6be4}" />
+			</Address>
+			<VATNumber>BE0878425664</VATNumber>
+			<VATLiability />
+			<GovernmentVATSystem>0</GovernmentVATSystem>
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2017-02-09</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3543" searchcode="8" status="P" ID="{62f4a962-aab4-4ec0-82e0-526e2522158e}">
+			<Name>Sabic Innovative Plastics</Name>
+			<Phone>0031164292911</Phone>
+			<PhoneExt />
+			<Fax>0</Fax>
+			<Email>solutions-europe@sabic-ip.com</Email>
+			<HomePage>www.sabic-ip.com</HomePage>
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Contact number="1387787" gender="O" default="0" ID="{ad31081f-6393-4073-bf54-b503e3bba4d6}">
+				<LastName>Atkinson</LastName>
+				<MiddleName />
+				<BirthName>Atkinson</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Darren</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone />
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>darren.atkinson@sabic-ip.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description />
+				</Job>
+			</Contact>
+			<Contact number="1387667" gender="O" default="0" ID="{11369db8-4f2a-4a86-a5c7-89446b6965d1}">
+				<LastName>Bruijnooge</LastName>
+				<MiddleName />
+				<BirthName>Bruijnooge</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>John</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>0164-292911</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email />
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description />
+				</Job>
+			</Contact>
+			<Contact number="1387668" gender="O" default="1" ID="{66780b8e-993b-4ceb-8029-f2b39426d21f}">
+				<LastName>Schaminee</LastName>
+				<MiddleName />
+				<BirthName>Schaminee</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Bart</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>0164-292911</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile>06-51583373</Mobile>
+				<Email>bart.schaminee@sabic-ip.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Sourcing Manager Capital Investments</Description>
+				</Job>
+			</Contact>
+			<Contact number="1386189" gender="O" default="0" ID="{d773a37d-4d18-4359-9b82-2f0c241237fc}">
+				<LastName>de Jonge</LastName>
+				<MiddleName />
+				<BirthName>de Jonge</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Rein</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>0164-292411</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile>622962070</Mobile>
+				<Email>rein.dejonge@sabic-ip.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>process engineer</Description>
+				</Job>
+			</Contact>
+			<Contact number="1388743" gender="O" default="0" ID="{d4cad42c-71bd-4094-91a2-c64dd5cfd05f}">
+				<LastName>Lageweg</LastName>
+				<MiddleName />
+				<BirthName>Lageweg</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Jaap</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone />
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email />
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description />
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{991571ad-296f-45e5-941e-08f8c82014fd}">
+				<AddressLine1>Plasticslaan 1</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>4600 AC</PostalCode>
+				<City>Bergen op Zoom</City>
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+				<Contact number="1387668" ID="{66780b8e-993b-4ceb-8029-f2b39426d21f}" />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<GovernmentVATSystem>0</GovernmentVATSystem>
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3581" searchcode="8" status="P" ID="{d8abb33f-854b-4cf3-b3dd-139c42dfd7d1}">
+			<Name>Steuma Instruments</Name>
+			<Phone>076 522 0901</Phone>
+			<PhoneExt />
+			<Fax>+31 76 520 58 65</Fax>
+			<Email>info@steuma.com</Email>
+			<HomePage>www.steuma.com</HomePage>
+			<IsSupplier>1</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Contact number="1385075" gender="O" default="0" ID="{df760cc1-6049-4a45-83b7-636350f78d55}">
+				<LastName>de Boer</LastName>
+				<MiddleName />
+				<BirthName>de Boer</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Michel</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>076 522 0901</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile>+31 6 206 178 88</Mobile>
+				<Email>mdeboer@steuma.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Commercial Director</Description>
+				</Job>
+			</Contact>
+			<Contact number="1385077" gender="O" default="1" ID="{ff3bcfaa-9eb8-4be0-8add-05b9c03d3d27}">
+				<LastName>Keppels</LastName>
+				<MiddleName />
+				<BirthName>Keppels</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Jeroen</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>076 522 0901</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile>+31 6 487 590 24</Mobile>
+				<Email>jkeppels@steuma.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Product Manager</Description>
+				</Job>
+			</Contact>
+			<Contact number="1385076" gender="O" default="0" ID="{ada20e07-7e25-494d-aa00-ce33aaee9944}">
+				<LastName>Westphal</LastName>
+				<MiddleName />
+				<BirthName>Westphal</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Slawa</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>076 522 0901</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile>+31 6 531 842 53</Mobile>
+				<Email>wwestphal@steuma.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Technical Manager</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{9b2ae98c-a7e4-4da1-b70e-08fe82a8188a}">
+				<AddressLine1>Kortestraat 10A</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>4818LT</PostalCode>
+				<City>Breda</City>
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+				<Contact number="1385077" ID="{ff3bcfaa-9eb8-4be0-8add-05b9c03d3d27}" />
+			</Address>
+			<Note><![CDATA[0]]></Note>
+			<VATNumber />
+			<VATLiability />
+			<GovernmentVATSystem>0</GovernmentVATSystem>
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="5358" searchcode="" status="P" ID="{0fa66d1e-5a5b-40c4-b9dc-3ee53f5edb94}">
+			<Name>Applied Process Technology</Name>
+			<Phone>+31882782828</Phone>
+			<PhoneExt />
+			<Fax />
+			<Email>info@apt.nl</Email>
+			<HomePage>www.apt.nl</HomePage>
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Contact number="1387828" gender="O" default="1" ID="{c901574e-9e11-4b74-8117-5cc3f981476a}">
+				<LastName>Beune</LastName>
+				<MiddleName />
+				<BirthName>Beune</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Gert-Jan</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone />
+				<PhoneExt />
+				<Fax />
+				<Mobile>+31622223393</Mobile>
+				<Email>gert-jan.beune@apt.nl</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Managing Director</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{4d262f34-5469-460f-8d65-9d8b33e8f2b6}">
+				<AddressLine1>Galileïlaan 33J</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>6716 BP Ede</PostalCode>
+				<City>Ede GL</City>
+				<State code="GL" />
+				<Country code="NL" />
+				<Phone />
+				<Fax />
+				<Contact number="1387828" ID="{c901574e-9e11-4b74-8117-5cc3f981476a}" />
+			</Address>
+			<VATNumber />
+			<VATLiability />
+			<GovernmentVATSystem>0</GovernmentVATSystem>
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2016-10-27</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3213" searchcode="" status="C" ID="{0ac23d4a-4982-45f2-8ea9-271e557aa7da}">
+			<Name>Incosa solutions</Name>
+			<Phone>+3234519395</Phone>
+			<PhoneExt />
+			<Fax />
+			<Email>finance@incosasolutions.com</Email>
+			<HomePage>WWW.incosasolutions.com</HomePage>
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Contact number="1388720" gender="O" default="0" ID="{0681c23f-0815-4663-b1d0-24d7d15c2217}">
+				<LastName>Schrauwen</LastName>
+				<MiddleName />
+				<BirthName>Schrauwen</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Jeroen</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>+3234519393</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>jeroen.schrauwen@indiconline.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>application engineer</Description>
+				</Job>
+			</Contact>
+			<Contact number="1388721" gender="O" default="0" ID="{58011963-3949-4f9b-ae6c-b14bbdd83777}">
+				<LastName>Claes</LastName>
+				<MiddleName />
+				<BirthName>Claes</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Luc</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>+3234519395</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile>+32475284693</Mobile>
+				<Email>luc.claes@incosasolutions.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>director</Description>
+				</Job>
+			</Contact>
+			<Contact number="1388731" gender="O" default="0" ID="{8c1cd517-d603-4587-9223-7df7f5ae8deb}">
+				<LastName>Pougnaud</LastName>
+				<MiddleName />
+				<BirthName>Pougnaud</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Laurent</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>+3234519395</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>laurent.pougnaud@incosasolutions.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Technical Manager</Description>
+				</Job>
+			</Contact>
+			<Contact number="1388722" gender="O" default="0" ID="{f3182543-970a-40a7-81c7-90e670e9a90b}">
+				<LastName>Botteldoorn</LastName>
+				<MiddleName />
+				<BirthName>Botteldoorn</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Michel</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone />
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>michel.botteldoorn@indiconline.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description />
+				</Job>
+			</Contact>
+			<Contact number="1388735" gender="O" default="1" ID="{02643700-03a7-4880-8199-fff10f9baf23}">
+				<LastName />
+				<MiddleName />
+				<BirthName />
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Info</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone />
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>info@incosasolutions.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description />
+				</Job>
+			</Contact>
+			<Contact number="1388730" gender="O" default="0" ID="{1fa416f4-b1d2-4298-b93a-47fd8b08a546}">
+				<LastName>Elorza</LastName>
+				<MiddleName />
+				<BirthName>Elorza</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Alain</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>+3234519395</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>alain.elorza@incosasolutions.com</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Application Engineer</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{2b994a8d-25ec-4dd4-99e2-dabd2adfa6fc}">
+				<AddressLine1>Molenberglei 21</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>2627</PostalCode>
+				<City>Schelle</City>
+				<State code="ANT" />
+				<Country code="BE" />
+				<Phone />
+				<Fax />
+				<Contact number="1388720" ID="{0681c23f-0815-4663-b1d0-24d7d15c2217}" />
+			</Address>
+			<BankAccount code="BE32363044470702" format="BEIB" default="1">
+				<Currency code="EUR" />
+				<Country code="BE" />
+				<BICCode>BBRUBEBB</BICCode>
+				<IBAN>BE32363044470702</IBAN>
+			</BankAccount>
+			<VATSales code="5" type="E" charged="0" vattransactiontype="B" blocked="0">
+				<Description termid="90017">Binnenland exclusief 21%</Description>
+				<Percentage>0.21</Percentage>
+				<EUSalesListing>N</EUSalesListing>
+				<Intrastat>0</Intrastat>
+				<VatDocType>P</VatDocType>
+				<CalculationBasis>1</CalculationBasis>
+				<GLToPay code="451000" type="24" balanceSide="C" balanceType="B">
+					<Description termid="90458">Te betalen btw</Description>
+				</GLToPay>
+				<GLToClaim code="411000" type="24" balanceSide="D" balanceType="B">
+					<Description termid="90459">Aftrekbare btw</Description>
+				</GLToClaim>
+				<Account ID="{31094f08-6827-4593-9a34-506b7ce77d16}" code="0" status="A">
+					<Name>BTW Administratie / Administration TVA</Name>
+					<Phone />
+					<Fax />
+					<Email />
+				</Account>
+				<VATBoxLink sign="P" type="B" TaxReturnType="200" BoxType="B">
+					<VATBox code="03">
+						<Country code="BE" />
+						<Description>Grdsl omzet 21- Base soumise a 21</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="V" TaxReturnType="200">
+					<VATBox code="03">
+						<Country code="BE" />
+						<Description>Grdsl omzet 21- Base soumise a 21</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="C" TaxReturnType="200" BoxType="B">
+					<VATBox code="49">
+						<Country code="BE" />
+						<Description>Grdsl overige CN verkoop - Base autres NC</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="X" TaxReturnType="200">
+					<VATBox code="49">
+						<Country code="BE" />
+						<Description>Grdsl overige CN verkoop - Base autres NC</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="A" TaxReturnType="200">
+					<VATBox code="54">
+						<Country code="BE" />
+						<Description>Te betalen BTW verkopen - TVA due ventes</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="B" TaxReturnType="200" BoxType="V">
+					<VATBox code="54">
+						<Country code="BE" />
+						<Description>Te betalen BTW verkopen - TVA due ventes</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="O" TaxReturnType="200">
+					<VATBox code="59">
+						<Country code="BE" />
+						<Description>Aftrekbare BTW aankopen - TVA deductible</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="Y" TaxReturnType="200">
+					<VATBox code="63">
+						<Country code="BE" />
+						<Description>BTW CN op aankopen - NC sur achats</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="C" TaxReturnType="200" BoxType="V">
+					<VATBox code="64">
+						<Country code="BE" />
+						<Description>BTW CN op verkopen  NC sur ventes</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="Z" TaxReturnType="200">
+					<VATBox code="64">
+						<Country code="BE" />
+						<Description>BTW CN op verkopen  NC sur ventes</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="I" TaxReturnType="200" VATGLAccountType="G">
+					<VATBox code="81">
+						<Country code="BE" />
+						<Description>Grdsl aank goederen - Base achats marchand</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="N" type="M" TaxReturnType="200" VATGLAccountType="G">
+					<VATBox code="81">
+						<Country code="BE" />
+						<Description>Grdsl aank goederen - Base achats marchand</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="N" TaxReturnType="200" VATGLAccountType="G">
+					<VATBox code="81">
+						<Country code="BE" />
+						<Description>Grdsl aank goederen - Base achats marchand</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="N" type="W" TaxReturnType="200" VATGLAccountType="G">
+					<VATBox code="81">
+						<Country code="BE" />
+						<Description>Grdsl aank goederen - Base achats marchand</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="I" TaxReturnType="200" VATGLAccountType="D">
+					<VATBox code="82">
+						<Country code="BE" />
+						<Description>Grdsl aank diensten - Base achats services</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="N" type="M" TaxReturnType="200" VATGLAccountType="D">
+					<VATBox code="82">
+						<Country code="BE" />
+						<Description>Grdsl aank diensten - Base achats services</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="N" TaxReturnType="200" VATGLAccountType="D">
+					<VATBox code="82">
+						<Country code="BE" />
+						<Description>Grdsl aank diensten - Base achats services</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="N" type="W" TaxReturnType="200" VATGLAccountType="D">
+					<VATBox code="82">
+						<Country code="BE" />
+						<Description>Grdsl aank diensten - Base achats services</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="I" TaxReturnType="200" VATGLAccountType="I">
+					<VATBox code="83">
+						<Country code="BE" />
+						<Description>Grdsl aank invest - Base achats investiss.</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="N" type="M" TaxReturnType="200" VATGLAccountType="I">
+					<VATBox code="83">
+						<Country code="BE" />
+						<Description>Grdsl aank invest - Base achats investiss.</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="N" TaxReturnType="200" VATGLAccountType="I">
+					<VATBox code="83">
+						<Country code="BE" />
+						<Description>Grdsl aank invest - Base achats investiss.</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="N" type="W" TaxReturnType="200" VATGLAccountType="I">
+					<VATBox code="83">
+						<Country code="BE" />
+						<Description>Grdsl aank invest - Base achats investiss.</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="W" TaxReturnType="200">
+					<VATBox code="85">
+						<Country code="BE" />
+						<Description>Grdsl overige CN - Base autres NC</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATPercentages>
+					<VATPercentage percentage="0.21" LineNumber="1" />
+				</VATPercentages>
+			</VATSales>
+			<VATNumber>BE0808556960</VATNumber>
+			<VATLiability>L</VATLiability>
+			<GovernmentVATSystem>0</GovernmentVATSystem>
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<GLSales code="700000" type="110" balanceSide="C" balanceType="W">
+				<Description>Gepresteerde diensten (projecten-overhead)</Description>
+			</GLSales>
+			<SalesPaymentCondition code="30">
+				<Description>30 dagen factuurdatum</Description>
+				<PaymentDiscountType>B</PaymentDiscountType>
+				<PaymentMethod>B</PaymentMethod>
+				<PaymentEndOfMonths>0</PaymentEndOfMonths>
+				<PaymentDays>30</PaymentDays>
+				<DiscountPaymentDays>0</DiscountPaymentDays>
+				<DiscountPercentage>0</DiscountPercentage>
+				<DiscountCalculation>E</DiscountCalculation>
+				<VATCalculation>I</VATCalculation>
+			</SalesPaymentCondition>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2017-04-26</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="1" searchcode="" status="A" ID="{9516e640-d8b0-4b67-bf46-db5016e669aa}">
+			<Name>Exact Belgium II BVBA</Name>
+			<Phone>+3227111511</Phone>
+			<PhoneExt />
+			<Fax>+3227111625</Fax>
+			<Email>sales@exactonline.be</Email>
+			<HomePage>www.exactonline.be</HomePage>
+			<IsSupplier>1</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>0</IsSales>
+			<IsPurchase>0</IsPurchase>
+			<Contact number="1388781" gender="O" default="1" ID="{23ad8d19-dccf-4e1f-8c66-52aec4dc8ed3}">
+				<LastName>Van Hoorebeke</LastName>
+				<MiddleName />
+				<BirthName>Van Hoorebeke</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Nico</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>+3214716388</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>nico.van.hoorebeke@intation.eu</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>CEO</Description>
+				</Job>
+			</Contact>
+			<Contact number="1381278" gender="O" default="0" ID="{369e53d7-4c10-4b71-8e99-1095e11a7c20}">
+				<LastName />
+				<MiddleName />
+				<BirthName />
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Sales</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Nationality code="BE" />
+				<Phone>+3280097631</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>sales@exactonline.be</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Internal Sales</Description>
+				</Job>
+			</Contact>
+			<Contact number="1381279" gender="O" default="0" ID="{d50aede0-87c3-466e-9ca2-38485e6b78c6}">
+				<LastName />
+				<MiddleName />
+				<BirthName />
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Support</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Nationality code="BE" />
+				<Phone>+3227111560</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>support@exactonline.be</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Support</Description>
+				</Job>
+			</Contact>
+			<Contact number="1388782" gender="O" default="0" ID="{f78e5369-be3e-4bb6-bf81-413a98929faa}">
+				<LastName>Van Hoorebeke</LastName>
+				<MiddleName />
+				<BirthName>Van Hoorebeke</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Nico</FirstName>
+				<Initials>Nico</Initials>
+				<Language code="NL-BE" />
+				<Phone>+3214716388</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email>nico.van.hoorebeke@intation.eu</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>CEO</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{ddece61d-3e64-4377-9178-5e0d3998637e}">
+				<AddressLine1>Koningin Astridlaan 166</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>1780</PostalCode>
+				<City>Wemmel</City>
+				<State code="V-B" />
+				<Country code="BE" />
+				<Phone />
+				<Fax />
+				<Contact number="1381279" ID="{d50aede0-87c3-466e-9ca2-38485e6b78c6}" />
+			</Address>
+			<BankAccount code="BE97719400068449" format="BEIB" default="1">
+				<Currency code="EUR" />
+				<Country code="BE" />
+				<BICCode>FTSBBE22</BICCode>
+				<IBAN>BE97719400068449</IBAN>
+			</BankAccount>
+			<BankAccount code="NL98ABNA0474400964" format="NLIB" default="0">
+				<Currency code="EUR" />
+				<Country code="NL" />
+				<BICCode>ABNANL2A</BICCode>
+				<IBAN>NL98ABNA0474400964</IBAN>
+			</BankAccount>
+			<Image>
+				<Name>exact_tagline_with_logo_rgb_s.jpg</Name>
+				<BinaryData>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</BinaryData>
+			</Image>
+			<VATPurchase code="5" type="E" charged="0" vattransactiontype="B" blocked="0">
+				<Description termid="90017">Binnenland exclusief 21%</Description>
+				<Percentage>0.21</Percentage>
+				<EUSalesListing>N</EUSalesListing>
+				<Intrastat>0</Intrastat>
+				<VatDocType>P</VatDocType>
+				<CalculationBasis>1</CalculationBasis>
+				<GLToPay code="451000" type="24" balanceSide="C" balanceType="B">
+					<Description termid="90458">Te betalen btw</Description>
+				</GLToPay>
+				<GLToClaim code="411000" type="24" balanceSide="D" balanceType="B">
+					<Description termid="90459">Aftrekbare btw</Description>
+				</GLToClaim>
+				<Account ID="{31094f08-6827-4593-9a34-506b7ce77d16}" code="0" status="A">
+					<Name>BTW Administratie / Administration TVA</Name>
+					<Phone />
+					<Fax />
+					<Email />
+				</Account>
+				<VATBoxLink sign="P" type="B" TaxReturnType="200" BoxType="B">
+					<VATBox code="03">
+						<Country code="BE" />
+						<Description>Grdsl omzet 21- Base soumise a 21</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="V" TaxReturnType="200">
+					<VATBox code="03">
+						<Country code="BE" />
+						<Description>Grdsl omzet 21- Base soumise a 21</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="C" TaxReturnType="200" BoxType="B">
+					<VATBox code="49">
+						<Country code="BE" />
+						<Description>Grdsl overige CN verkoop - Base autres NC</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="X" TaxReturnType="200">
+					<VATBox code="49">
+						<Country code="BE" />
+						<Description>Grdsl overige CN verkoop - Base autres NC</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="A" TaxReturnType="200">
+					<VATBox code="54">
+						<Country code="BE" />
+						<Description>Te betalen BTW verkopen - TVA due ventes</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="B" TaxReturnType="200" BoxType="V">
+					<VATBox code="54">
+						<Country code="BE" />
+						<Description>Te betalen BTW verkopen - TVA due ventes</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="O" TaxReturnType="200">
+					<VATBox code="59">
+						<Country code="BE" />
+						<Description>Aftrekbare BTW aankopen - TVA deductible</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="Y" TaxReturnType="200">
+					<VATBox code="63">
+						<Country code="BE" />
+						<Description>BTW CN op aankopen - NC sur achats</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="C" TaxReturnType="200" BoxType="V">
+					<VATBox code="64">
+						<Country code="BE" />
+						<Description>BTW CN op verkopen  NC sur ventes</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="Z" TaxReturnType="200">
+					<VATBox code="64">
+						<Country code="BE" />
+						<Description>BTW CN op verkopen  NC sur ventes</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="I" TaxReturnType="200" VATGLAccountType="G">
+					<VATBox code="81">
+						<Country code="BE" />
+						<Description>Grdsl aank goederen - Base achats marchand</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="N" type="M" TaxReturnType="200" VATGLAccountType="G">
+					<VATBox code="81">
+						<Country code="BE" />
+						<Description>Grdsl aank goederen - Base achats marchand</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="N" TaxReturnType="200" VATGLAccountType="G">
+					<VATBox code="81">
+						<Country code="BE" />
+						<Description>Grdsl aank goederen - Base achats marchand</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="N" type="W" TaxReturnType="200" VATGLAccountType="G">
+					<VATBox code="81">
+						<Country code="BE" />
+						<Description>Grdsl aank goederen - Base achats marchand</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="I" TaxReturnType="200" VATGLAccountType="D">
+					<VATBox code="82">
+						<Country code="BE" />
+						<Description>Grdsl aank diensten - Base achats services</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="N" type="M" TaxReturnType="200" VATGLAccountType="D">
+					<VATBox code="82">
+						<Country code="BE" />
+						<Description>Grdsl aank diensten - Base achats services</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="N" TaxReturnType="200" VATGLAccountType="D">
+					<VATBox code="82">
+						<Country code="BE" />
+						<Description>Grdsl aank diensten - Base achats services</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="N" type="W" TaxReturnType="200" VATGLAccountType="D">
+					<VATBox code="82">
+						<Country code="BE" />
+						<Description>Grdsl aank diensten - Base achats services</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="I" TaxReturnType="200" VATGLAccountType="I">
+					<VATBox code="83">
+						<Country code="BE" />
+						<Description>Grdsl aank invest - Base achats investiss.</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="N" type="M" TaxReturnType="200" VATGLAccountType="I">
+					<VATBox code="83">
+						<Country code="BE" />
+						<Description>Grdsl aank invest - Base achats investiss.</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="N" TaxReturnType="200" VATGLAccountType="I">
+					<VATBox code="83">
+						<Country code="BE" />
+						<Description>Grdsl aank invest - Base achats investiss.</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="N" type="W" TaxReturnType="200" VATGLAccountType="I">
+					<VATBox code="83">
+						<Country code="BE" />
+						<Description>Grdsl aank invest - Base achats investiss.</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="W" TaxReturnType="200">
+					<VATBox code="85">
+						<Country code="BE" />
+						<Description>Grdsl overige CN - Base autres NC</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATPercentages>
+					<VATPercentage percentage="0.21" LineNumber="1" />
+				</VATPercentages>
+			</VATPurchase>
+			<VATNumber>BE0505890632</VATNumber>
+			<VATLiability />
+			<GovernmentVATSystem>0</GovernmentVATSystem>
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<GLPurchase code="610300" type="111" balanceSide="D" balanceType="W">
+				<Description>Onderhoud informatica</Description>
+			</GLPurchase>
+			<GLAP code="440000" type="22" balanceSide="C" balanceType="B">
+				<Description>Fournisseurs</Description>
+			</GLAP>
+			<PurchasePaymentCondition code="DM">
+				<Description>Domiciliëring</Description>
+				<PaymentDiscountType>B</PaymentDiscountType>
+				<PaymentMethod>I</PaymentMethod>
+				<PaymentEndOfMonths>0</PaymentEndOfMonths>
+				<PaymentDays>0</PaymentDays>
+				<DiscountPaymentDays>0</DiscountPaymentDays>
+				<DiscountPercentage>0</DiscountPercentage>
+				<DiscountCalculation>E</DiscountCalculation>
+				<VATCalculation>I</VATCalculation>
+			</PurchasePaymentCondition>
+			<AccountClassifications />
+			<BusinessType code="014">
+				<Description>Naamloze vennootschap</Description>
+			</BusinessType>
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2006-01-01</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="5443" searchcode="" status="A" ID="{52fca0bb-734b-49d7-aa30-12b84c3dea96}">
+			<Name>TVC</Name>
+			<Phone />
+			<PhoneExt />
+			<Fax />
+			<Email>info@tinovc.com</Email>
+			<HomePage>www.tinovc.com</HomePage>
+			<IsSupplier>1</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>0</IsSales>
+			<IsPurchase>0</IsPurchase>
+			<Contact number="1388783" gender="O" default="1" ID="{e60187fd-35ea-4b69-accc-c1eab3d3e94a}">
+				<LastName>Vande Capelle</LastName>
+				<MiddleName />
+				<BirthName>Vande Capelle</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Tino</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone />
+				<PhoneExt />
+				<Fax />
+				<Mobile>+49 174 4211211</Mobile>
+				<Email />
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Principal - Functional Safety Services</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{5aa4ba55-465c-409a-a9bf-33da83757cb2}">
+				<AddressLine1 />
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode />
+				<City />
+				<Country code="BE" />
+				<Phone />
+				<Fax />
+				<Contact number="1388783" ID="{e60187fd-35ea-4b69-accc-c1eab3d3e94a}" />
+			</Address>
+			<VATNumber />
+			<VATLiability />
+			<GovernmentVATSystem>0</GovernmentVATSystem>
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2017-10-19</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="5311" searchcode="" status="A" ID="{4436575c-aed2-440e-8b3d-4164a880fc71}">
+			<Name>ACTA vzw</Name>
+			<Phone>+326202300</Phone>
+			<PhoneExt />
+			<Fax />
+			<Email>acta.info@acta-vzw.be</Email>
+			<HomePage>www.acta-vzw.be</HomePage>
+			<IsSupplier>1</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>0</IsSales>
+			<IsPurchase>0</IsPurchase>
+			<Contact number="1387851" gender="O" default="1" ID="{d6ef1303-64db-4860-80d6-e8595e42af34}">
+				<LastName>Musters</LastName>
+				<MiddleName />
+				<BirthName>Musters</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Hans</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone>+3236202300</Phone>
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email />
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description />
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{9cbeacfd-8cc8-4681-ae1c-5dcc6911b1fb}">
+				<AddressLine1>Ruiterijschool 9</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>2930</PostalCode>
+				<City>Brasschaat</City>
+				<Country code="BE" />
+				<Phone />
+				<Fax />
+				<Contact number="1387851" ID="{d6ef1303-64db-4860-80d6-e8595e42af34}" />
+			</Address>
+			<VATPurchase code="1" type="E" charged="0" vattransactiontype="B" blocked="0">
+				<Description termid="90013">Binnenland exclusief 6%</Description>
+				<Percentage>0.06</Percentage>
+				<EUSalesListing>N</EUSalesListing>
+				<Intrastat>0</Intrastat>
+				<VatDocType>P</VatDocType>
+				<CalculationBasis>1</CalculationBasis>
+				<GLToPay code="451000" type="24" balanceSide="C" balanceType="B">
+					<Description termid="90458">Te betalen btw</Description>
+				</GLToPay>
+				<GLToClaim code="411000" type="24" balanceSide="D" balanceType="B">
+					<Description termid="90459">Aftrekbare btw</Description>
+				</GLToClaim>
+				<Account ID="{31094f08-6827-4593-9a34-506b7ce77d16}" code="0" status="A">
+					<Name>BTW Administratie / Administration TVA</Name>
+					<Phone />
+					<Fax />
+					<Email />
+				</Account>
+				<VATBoxLink sign="P" type="B" TaxReturnType="200" BoxType="B">
+					<VATBox code="01">
+						<Country code="BE" />
+						<Description>Grdsl omzet 6 - Base soumise a 6</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="V" TaxReturnType="200">
+					<VATBox code="01">
+						<Country code="BE" />
+						<Description>Grdsl omzet 6 - Base soumise a 6</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="C" TaxReturnType="200" BoxType="B">
+					<VATBox code="49">
+						<Country code="BE" />
+						<Description>Grdsl overige CN verkoop - Base autres NC</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="X" TaxReturnType="200">
+					<VATBox code="49">
+						<Country code="BE" />
+						<Description>Grdsl overige CN verkoop - Base autres NC</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="A" TaxReturnType="200">
+					<VATBox code="54">
+						<Country code="BE" />
+						<Description>Te betalen BTW verkopen - TVA due ventes</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="B" TaxReturnType="200" BoxType="V">
+					<VATBox code="54">
+						<Country code="BE" />
+						<Description>Te betalen BTW verkopen - TVA due ventes</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="O" TaxReturnType="200">
+					<VATBox code="59">
+						<Country code="BE" />
+						<Description>Aftrekbare BTW aankopen - TVA deductible</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="Y" TaxReturnType="200">
+					<VATBox code="63">
+						<Country code="BE" />
+						<Description>BTW CN op aankopen - NC sur achats</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="C" TaxReturnType="200" BoxType="V">
+					<VATBox code="64">
+						<Country code="BE" />
+						<Description>BTW CN op verkopen  NC sur ventes</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="Z" TaxReturnType="200">
+					<VATBox code="64">
+						<Country code="BE" />
+						<Description>BTW CN op verkopen  NC sur ventes</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="I" TaxReturnType="200" VATGLAccountType="G">
+					<VATBox code="81">
+						<Country code="BE" />
+						<Description>Grdsl aank goederen - Base achats marchand</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="N" type="M" TaxReturnType="200" VATGLAccountType="G">
+					<VATBox code="81">
+						<Country code="BE" />
+						<Description>Grdsl aank goederen - Base achats marchand</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="N" TaxReturnType="200" VATGLAccountType="G">
+					<VATBox code="81">
+						<Country code="BE" />
+						<Description>Grdsl aank goederen - Base achats marchand</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="N" type="W" TaxReturnType="200" VATGLAccountType="G">
+					<VATBox code="81">
+						<Country code="BE" />
+						<Description>Grdsl aank goederen - Base achats marchand</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="I" TaxReturnType="200" VATGLAccountType="D">
+					<VATBox code="82">
+						<Country code="BE" />
+						<Description>Grdsl aank diensten - Base achats services</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="N" type="M" TaxReturnType="200" VATGLAccountType="D">
+					<VATBox code="82">
+						<Country code="BE" />
+						<Description>Grdsl aank diensten - Base achats services</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="N" TaxReturnType="200" VATGLAccountType="D">
+					<VATBox code="82">
+						<Country code="BE" />
+						<Description>Grdsl aank diensten - Base achats services</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="N" type="W" TaxReturnType="200" VATGLAccountType="D">
+					<VATBox code="82">
+						<Country code="BE" />
+						<Description>Grdsl aank diensten - Base achats services</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="I" TaxReturnType="200" VATGLAccountType="I">
+					<VATBox code="83">
+						<Country code="BE" />
+						<Description>Grdsl aank invest - Base achats investiss.</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="N" type="M" TaxReturnType="200" VATGLAccountType="I">
+					<VATBox code="83">
+						<Country code="BE" />
+						<Description>Grdsl aank invest - Base achats investiss.</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="N" TaxReturnType="200" VATGLAccountType="I">
+					<VATBox code="83">
+						<Country code="BE" />
+						<Description>Grdsl aank invest - Base achats investiss.</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="N" type="W" TaxReturnType="200" VATGLAccountType="I">
+					<VATBox code="83">
+						<Country code="BE" />
+						<Description>Grdsl aank invest - Base achats investiss.</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="W" TaxReturnType="200">
+					<VATBox code="85">
+						<Country code="BE" />
+						<Description>Grdsl overige CN - Base autres NC</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATPercentages>
+					<VATPercentage percentage="0.06" LineNumber="1" />
+				</VATPercentages>
+			</VATPurchase>
+			<VATNumber>BE0445281270</VATNumber>
+			<VATLiability />
+			<GovernmentVATSystem>0</GovernmentVATSystem>
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<GLPurchase code="615121" type="111" balanceSide="D" balanceType="W">
+				<Description>Trainingen</Description>
+			</GLPurchase>
+			<GLAP code="440000" type="22" balanceSide="C" balanceType="B">
+				<Description>Fournisseurs</Description>
+			</GLAP>
+			<PurchasePaymentCondition code="1">
+				<Description>Contre remboursement</Description>
+				<PaymentDiscountType>B</PaymentDiscountType>
+				<PaymentMethod>B</PaymentMethod>
+				<PaymentEndOfMonths>0</PaymentEndOfMonths>
+				<PaymentDays>0</PaymentDays>
+				<DiscountPaymentDays>0</DiscountPaymentDays>
+				<DiscountPercentage>0</DiscountPercentage>
+				<DiscountCalculation>I</DiscountCalculation>
+				<VATCalculation>E</VATCalculation>
+			</PurchasePaymentCondition>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2016-06-10</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="3201" searchcode="" status="A" ID="{22f6945d-63ce-43f9-abbd-8fc1ebefc14a}">
+			<Name>Kykeh Bvba</Name>
+			<Phone>0473837048</Phone>
+			<PhoneExt />
+			<Fax />
+			<Email>kevin.heylen@intation.eu</Email>
+			<HomePage />
+			<Language code="NL-BE" />
+			<IsSupplier>1</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>0</IsSales>
+			<IsPurchase>0</IsPurchase>
+			<Contact number="1388712" gender="M" default="1" ID="{c788a118-d53e-4436-bcdf-8783d1c0403a}">
+				<LastName>Heylen</LastName>
+				<MiddleName />
+				<BirthName>Heylen</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Kevin</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone />
+				<PhoneExt />
+				<Fax />
+				<Mobile />
+				<Email />
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Zaakvoerder</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{82e86faf-9925-4f3c-90d1-de9a8bf2a371}">
+				<AddressLine1>Acaciadreef 18</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>2950</PostalCode>
+				<City>Kapellen (Antwerpen)</City>
+				<State code="ANT" />
+				<Country code="BE" />
+				<Phone />
+				<Fax />
+				<Contact number="1388712" ID="{c788a118-d53e-4436-bcdf-8783d1c0403a}" />
+			</Address>
+			<BankAccount code="BE86645101987350" format="BEIB" default="1">
+				<Description>KykeH bank van Breda</Description>
+				<Currency code="EUR" />
+				<Country code="BE" />
+				<BICCode>JVBABE22</BICCode>
+				<IBAN>BE86645101987350</IBAN>
+			</BankAccount>
+			<AccountManager username="Nico.Van.Hoorebeke">
+				<FullName>Nico Van Hoorebeke</FullName>
+			</AccountManager>
+			<Note><![CDATA[0]]></Note>
+			<VATPurchase code="5" type="E" charged="0" vattransactiontype="B" blocked="0">
+				<Description termid="90017">Binnenland exclusief 21%</Description>
+				<Percentage>0.21</Percentage>
+				<EUSalesListing>N</EUSalesListing>
+				<Intrastat>0</Intrastat>
+				<VatDocType>P</VatDocType>
+				<CalculationBasis>1</CalculationBasis>
+				<GLToPay code="451000" type="24" balanceSide="C" balanceType="B">
+					<Description termid="90458">Te betalen btw</Description>
+				</GLToPay>
+				<GLToClaim code="411000" type="24" balanceSide="D" balanceType="B">
+					<Description termid="90459">Aftrekbare btw</Description>
+				</GLToClaim>
+				<Account ID="{31094f08-6827-4593-9a34-506b7ce77d16}" code="0" status="A">
+					<Name>BTW Administratie / Administration TVA</Name>
+					<Phone />
+					<Fax />
+					<Email />
+				</Account>
+				<VATBoxLink sign="P" type="B" TaxReturnType="200" BoxType="B">
+					<VATBox code="03">
+						<Country code="BE" />
+						<Description>Grdsl omzet 21- Base soumise a 21</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="V" TaxReturnType="200">
+					<VATBox code="03">
+						<Country code="BE" />
+						<Description>Grdsl omzet 21- Base soumise a 21</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="C" TaxReturnType="200" BoxType="B">
+					<VATBox code="49">
+						<Country code="BE" />
+						<Description>Grdsl overige CN verkoop - Base autres NC</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="X" TaxReturnType="200">
+					<VATBox code="49">
+						<Country code="BE" />
+						<Description>Grdsl overige CN verkoop - Base autres NC</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="A" TaxReturnType="200">
+					<VATBox code="54">
+						<Country code="BE" />
+						<Description>Te betalen BTW verkopen - TVA due ventes</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="B" TaxReturnType="200" BoxType="V">
+					<VATBox code="54">
+						<Country code="BE" />
+						<Description>Te betalen BTW verkopen - TVA due ventes</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="O" TaxReturnType="200">
+					<VATBox code="59">
+						<Country code="BE" />
+						<Description>Aftrekbare BTW aankopen - TVA deductible</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="Y" TaxReturnType="200">
+					<VATBox code="63">
+						<Country code="BE" />
+						<Description>BTW CN op aankopen - NC sur achats</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="C" TaxReturnType="200" BoxType="V">
+					<VATBox code="64">
+						<Country code="BE" />
+						<Description>BTW CN op verkopen  NC sur ventes</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="Z" TaxReturnType="200">
+					<VATBox code="64">
+						<Country code="BE" />
+						<Description>BTW CN op verkopen  NC sur ventes</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="I" TaxReturnType="200" VATGLAccountType="G">
+					<VATBox code="81">
+						<Country code="BE" />
+						<Description>Grdsl aank goederen - Base achats marchand</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="N" type="M" TaxReturnType="200" VATGLAccountType="G">
+					<VATBox code="81">
+						<Country code="BE" />
+						<Description>Grdsl aank goederen - Base achats marchand</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="N" TaxReturnType="200" VATGLAccountType="G">
+					<VATBox code="81">
+						<Country code="BE" />
+						<Description>Grdsl aank goederen - Base achats marchand</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="N" type="W" TaxReturnType="200" VATGLAccountType="G">
+					<VATBox code="81">
+						<Country code="BE" />
+						<Description>Grdsl aank goederen - Base achats marchand</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="I" TaxReturnType="200" VATGLAccountType="D">
+					<VATBox code="82">
+						<Country code="BE" />
+						<Description>Grdsl aank diensten - Base achats services</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="N" type="M" TaxReturnType="200" VATGLAccountType="D">
+					<VATBox code="82">
+						<Country code="BE" />
+						<Description>Grdsl aank diensten - Base achats services</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="N" TaxReturnType="200" VATGLAccountType="D">
+					<VATBox code="82">
+						<Country code="BE" />
+						<Description>Grdsl aank diensten - Base achats services</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="N" type="W" TaxReturnType="200" VATGLAccountType="D">
+					<VATBox code="82">
+						<Country code="BE" />
+						<Description>Grdsl aank diensten - Base achats services</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="I" TaxReturnType="200" VATGLAccountType="I">
+					<VATBox code="83">
+						<Country code="BE" />
+						<Description>Grdsl aank invest - Base achats investiss.</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="N" type="M" TaxReturnType="200" VATGLAccountType="I">
+					<VATBox code="83">
+						<Country code="BE" />
+						<Description>Grdsl aank invest - Base achats investiss.</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="N" TaxReturnType="200" VATGLAccountType="I">
+					<VATBox code="83">
+						<Country code="BE" />
+						<Description>Grdsl aank invest - Base achats investiss.</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="N" type="W" TaxReturnType="200" VATGLAccountType="I">
+					<VATBox code="83">
+						<Country code="BE" />
+						<Description>Grdsl aank invest - Base achats investiss.</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATBoxLink sign="P" type="W" TaxReturnType="200">
+					<VATBox code="85">
+						<Country code="BE" />
+						<Description>Grdsl overige CN - Base autres NC</Description>
+					</VATBox>
+				</VATBoxLink>
+				<VATPercentages>
+					<VATPercentage percentage="0.21" LineNumber="1" />
+				</VATPercentages>
+			</VATPurchase>
+			<VATNumber>BE0828374555</VATNumber>
+			<VATLiability>L</VATLiability>
+			<GovernmentVATSystem>0</GovernmentVATSystem>
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<GLPurchase code="603011" type="111" balanceSide="D" balanceType="W">
+				<Description>Onderaanneming Kykeh</Description>
+			</GLPurchase>
+			<PurchasePaymentCondition code="NU">
+				<Description>vv = factuurdatum</Description>
+				<PaymentDiscountType>B</PaymentDiscountType>
+				<PaymentMethod>B</PaymentMethod>
+				<PaymentEndOfMonths>0</PaymentEndOfMonths>
+				<PaymentDays>0</PaymentDays>
+				<DiscountPaymentDays>0</DiscountPaymentDays>
+				<DiscountPercentage>0</DiscountPercentage>
+				<DiscountCalculation>E</DiscountCalculation>
+				<VATCalculation>I</VATCalculation>
+			</PurchasePaymentCondition>
+			<AccountClassifications />
+			<SubSector code="62">
+				<Description>Ontwerpen en programmeren van computerprogramma's, computerconsultancy-activiteiten en aanverwante activiteiten</Description>
+				<Parent code="J">
+					<Description>Informatie en communicatie</Description>
+				</Parent>
+			</SubSector>
+			<CompanySize code="A">
+				<Description>Eenmansbedriijf</Description>
+			</CompanySize>
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2010-10-07</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+		<Account code="5450" searchcode="" status="P" ID="{30e4f555-c682-41ae-ba23-256b2fcb189e}">
+			<Name>N.V. Etabl. Joseph Soubry</Name>
+			<Phone>+3251222320</Phone>
+			<PhoneExt />
+			<Fax />
+			<Email>soubry@soubry.be</Email>
+			<HomePage>www.soubry.be</HomePage>
+			<IsSupplier>0</IsSupplier>
+			<CanDropShip>0</CanDropShip>
+			<IsBlocked>0</IsBlocked>
+			<IsReseller>0</IsReseller>
+			<IsSales>1</IsSales>
+			<IsPurchase>1</IsPurchase>
+			<Contact number="1388786" gender="O" default="1" ID="{4a68be84-82c0-41b5-9d71-028e5d6eade8}">
+				<LastName>Soubry</LastName>
+				<MiddleName />
+				<BirthName>Soubry</BirthName>
+				<BirthNamePrefix />
+				<PartnerName />
+				<PartnerNamePrefix />
+				<FirstName>Matthieu</FirstName>
+				<Initials />
+				<Language code="NL-BE" />
+				<Phone />
+				<PhoneExt />
+				<Fax />
+				<Mobile>+32475441907</Mobile>
+				<Email>matthieu.soubry@soubry.be</Email>
+				<BirthPlace />
+				<IsMailingExcluded>0</IsMailingExcluded>
+				<Job>
+					<Description>Directie</Description>
+				</Job>
+			</Contact>
+			<Address type="VIS" default="1" ID="{ac80f823-952e-46c5-bc4b-f2cf7f393e2c}">
+				<AddressLine1>Verbrandhofstraat 51</AddressLine1>
+				<AddressLine2 />
+				<AddressLine3 />
+				<PostalCode>8800</PostalCode>
+				<City>Beveren (Roeselare)</City>
+				<State code="W-V" />
+				<Country code="BE" />
+				<Phone />
+				<Fax />
+				<Contact number="1388786" ID="{4a68be84-82c0-41b5-9d71-028e5d6eade8}" />
+			</Address>
+			<VATNumber />
+			<VATLiability />
+			<GovernmentVATSystem>0</GovernmentVATSystem>
+			<ChamberOfCommerce />
+			<ChamberOfCommerceEstablishment />
+			<SalesCurrency code="EUR" />
+			<PurchaseCurrency code="EUR" />
+			<CreditLine>
+				<Sales>0</Sales>
+				<Purchase>0</Purchase>
+			</CreditLine>
+			<Discount>
+				<SalesPercentage>0</SalesPercentage>
+				<PurchasePercentage>0</PurchasePercentage>
+			</Discount>
+			<AccountClassifications />
+			<IsMailing>0</IsMailing>
+			<IsCompetitor>0</IsCompetitor>
+			<StartDate>2017-11-13</StartDate>
+			<InvoicingMethod>0</InvoicingMethod>
+		</Account>
+	</Accounts>
+	<Topics>
+		<Topic code="Accounts" ts_d="0x000000002B395C85" count="44" pagesize="1000" />
+	</Topics>
+	<Messages />
+</eExact>

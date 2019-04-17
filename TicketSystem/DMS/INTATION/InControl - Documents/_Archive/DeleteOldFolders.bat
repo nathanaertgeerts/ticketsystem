@@ -1,0 +1,1 @@
+FORFILES /P "C:\Windows\Temp\core\WebSocket" /D -1 /C "cmd /c IF @isdir == TRUE rd /S /Q @path"
